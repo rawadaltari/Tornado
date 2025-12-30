@@ -62,10 +62,10 @@ export default function Tornado() {
           <Link to="https://wa.me/1234567890" target="_blank" className="social-btn bg-green-500">
             <FaWhatsapp />
           </Link>
-          <Link to="#" className="social-btn bg-pink-500">
+          <Link to="https://www.instagram.com/tornado_dubai1?igsh=NTJodDFuNW9lODJm&utm_source=qr" className="social-btn bg-pink-500">
             <FaInstagram />
           </Link>
-          <Link to="#" className="social-btn bg-blue-600">
+          <Link to="https://www.facebook.com/share/1DUYTq3yvn/?mibextid=wwXIfr" className="social-btn bg-blue-600">
             <FaFacebookF />
           </Link>
           <Link to="tel:+1234567890" className="social-btn bg-amber-500 text-black">
@@ -88,7 +88,7 @@ export default function Tornado() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={goToMenu}
-            className="mt-10 px-10 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full text-xl shadow-2xl"
+            className="mt-10 px-8 py-2 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full text-lg shadow-2xl"
           >
             عرض القائمة
             <div className="text-sm opacity-80">View Menu</div>

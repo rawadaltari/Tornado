@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import logoImage from '../assets/logo.png';
+import logoImage from '/assets/Tornadologo1.png';
 import gsap from 'gsap';
 
 interface LoaderProps {
@@ -31,7 +31,7 @@ export function Loader({
   };
 
   useEffect(() => {
-    // 🔒 اقفل السكرول أثناء اللودر
+    
     const originalOverflow = document.body.style.overflow;
     const originalHeight = document.body.style.height;
 
@@ -83,13 +83,13 @@ export function Loader({
   return (
     <div
       ref={containerRef}
-      className="fixed inset-0 bg-background-light flex items-center justify-center z-[9999]"
+      className="fixed inset-0  flex items-center justify-center z-[9999]"
     >
       <div ref={logoRef} className="relative">
         <img
           src={logoImage}
           alt="Restaurant Logo"
-          className="w-64 h-64 object-contain"
+          className="w-72 h-80 object-contain"
         />
       </div>
     </div>

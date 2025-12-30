@@ -29,6 +29,7 @@ export function CategoryCard({
   index,
 }: CategoryCardProps) {
   const [isMobile, setIsMobile] = useState(false);
+  const [imageError, setImageError] = useState(false);
   
   useEffect(() => {
     const checkMobile = () => setIsMobile(window.innerWidth < 768);
@@ -37,7 +38,6 @@ export function CategoryCard({
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
-  
   const verticalOffset = getVerticalOffset(index, isMobile);
   const cardVariants = getCardVariants(index);
   const imageVariants = getImageVariants(index);
@@ -51,6 +51,11 @@ export function CategoryCard({
   const imageUrl = category.image || (category as any).image_url || '';
   const firstLetter = category.name.charAt(0);
 
+  // Reset image error when imageUrl changes
+  useEffect(() => {
+    setImageError(false);
+  }, [imageUrl]);
+
   return (
     <motion.div
       initial="offscreen"
@@ -60,6 +65,14 @@ export function CategoryCard({
       viewport={{ once: true, amount: 0.1, margin: viewportMargin }}
       variants={cardVariants}
       onClick={() => onClick(category)}
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          onClick(category);
+        }
+      }}
+      role="button"
+      tabIndex={0}
       className={`
         relative bg-gradient-to-br from-[#f4ce62] to-[#f8e29e]
         rounded-3xl shadow-lg hover:shadow-xl
@@ -88,7 +101,7 @@ export function CategoryCard({
           <div className="absolute inset-0 rounded-full bg-gradient-to-br from-white to-yellow-50 shadow-md transform -rotate-6 opacity-60 group-hover:opacity-80 transition-opacity duration-200" />
           
           <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white shadow-lg">
-            {imageUrl ? (
+            {imageUrl && !imageError ? (
               <motion.img
                 src={imageUrl}
                 alt={category.name}
@@ -97,19 +110,7 @@ export function CategoryCard({
                 initial={{ scale: 1 }}
                 whileHover={{ scale: 1.1 }}
                 transition={{ duration: 0.3 }}
-                onError={(e) => {
-                  e.currentTarget.style.display = 'none';
-                  const parent = e.currentTarget.parentElement;
-                  if (parent) {
-                    parent.innerHTML = `
-                      <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-[#285349]/10 to-[#f4ce62]/20">
-                        <span class="text-[#285349] ${textSizes.placeholder} font-bold">
-                          ${firstLetter}
-                        </span>
-                      </div>
-                    `;
-                  }
-                }}
+                onError={() => setImageError(true)}
               />
             ) : (
               <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-[#285349]/10 to-[#f4ce62]/20">
