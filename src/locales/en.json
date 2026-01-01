@@ -1,0 +1,1138 @@
+{
+  "categories": {
+    "manakish": "Manakish",
+    "chicken-meals": "Chicken Meals",
+    "meat-meals": "Meat Meals",
+    "kids-meals": "Kids Meals",
+    "seafood-meals": "Seafood Meals",
+    "diet-meals": "Diet Meals",
+    "sandwiches": "Sandwiches",
+    "soups": "Soups",
+    "cold-salads": "Cold Salads",
+    "hot-appetizers": "Hot Appetizers",
+    "pasta": "Pasta",
+    "breakfast": "Breakfast",
+    "set-meals": "Set Meals",
+    "extra-kitchen": "Extra Kitchen",
+    "hookah": "Hookah (Two Apples)",
+    "extra-bar": "Extra Bar",
+    "sweets": "Sweets",
+    "cold-coffee": "Cold Coffee",
+    "cocktails": "Cocktails",
+    "hot-drinks": "Hot Drinks",
+    "milkshakes": "Milkshakes",
+    "ice-tea": "Iced Tea",
+    "sports-drink": "Sports Drink",
+    "sodas": "Sodas",
+    "seasonal-juices": "Seasonal Juices",
+    "fresh-juices": "Fresh Juices"
+  },
+  "menuItems": {
+    "kitchen-1": {
+      "name": "White Cheese Manakish with Vegetables",
+      "description": ""
+    },
+    "kitchen-2": {
+      "name": "Toasted Manakish with Kashkaval",
+      "description": ""
+    },
+    "kitchen-3": {
+      "name": "Labneh and Makdous Manakish",
+      "description": ""
+    },
+    "kitchen-4": {
+      "name": "Za'atar Manakish with Vegetables",
+      "description": ""
+    },
+    "kitchen-5": {
+      "name": "Labneh Manakish with Sumac",
+      "description": ""
+    },
+    "kitchen-6": {
+      "name": "Spanish Chicken Roll",
+      "description": "Chicken - Spinach Cream Sauce - Fried Potatoes"
+    },
+    "kitchen-7": {
+      "name": "Teriyaki Chicken",
+      "description": "Chicken Strips - Teriyaki Sauce - Sushi Rice"
+    },
+    "kitchen-8": {
+      "name": "Chicken Cordon Bleu",
+      "description": "Chicken - Mozzarella Cheese - Cream and Turkey Sauce - Fried Potatoes"
+    },
+    "kitchen-9": {
+      "name": "Chicken Marsala",
+      "description": "Chicken - Grape Sauce - Mushrooms - Fettuccine"
+    },
+    "kitchen-10": {
+      "name": "Chicken Napoli",
+      "description": "Chicken - Pesto Cream Sauce - Fettuccine - Sautéed Vegetables"
+    },
+    "kitchen-11": {
+      "name": "Grilled Lemon Herb Chicken",
+      "description": "Chicken - Lemon Cream Sauce - Rice - Sautéed Vegetables"
+    },
+    "kitchen-12": {
+      "name": "Tornado Pot",
+      "description": "Chicken - Mushroom and Lemon Sauce"
+    },
+    "kitchen-13": {
+      "name": "Fusion Chicken Cashew",
+      "description": "Chicken - Cashew Cream Sauce - Rice"
+    },
+    "kitchen-14": {
+      "name": "Creamy Chicken Mozzarella and Parmesan",
+      "description": "Chicken - Mushrooms - Cheese - Cream Sauce - Fried Potatoes"
+    },
+    "kitchen-15": {
+      "name": "Entrecote Steak",
+      "description": "Steak - Entrecote Sauce - Fried Potatoes"
+    },
+    "kitchen-16": {
+      "name": "Beef Stroganoff",
+      "description": "Beef Fillet - Vegetables - Beef Broth Sauce - Rice"
+    },
+    "kitchen-17": {
+      "name": "Saffron Steak",
+      "description": "Beef Fillet - Saffron Cream Sauce - Sautéed Vegetables - Fried Potatoes"
+    },
+    "kitchen-18": {
+      "name": "Pepper Fillet",
+      "description": "Beef Fillet - Peppercorn Sauce - Sautéed Vegetables - Potatoes"
+    },
+    "kitchen-19": {
+      "name": "Roquefort Fillet",
+      "description": "Beef Fillet - Roquefort Sauce - Sautéed Vegetables - Potatoes"
+    },
+    "kitchen-20": {
+      "name": "Mustard Fillet",
+      "description": "Beef Fillet - Mustard Sauce - Sautéed Vegetables - Potatoes"
+    },
+    "kitchen-21": {
+      "name": "Mushroom Fillet",
+      "description": "Beef Fillet - Mushroom Sauce - Sautéed Vegetables - Potatoes"
+    },
+    "kitchen-22": {
+      "name": "Chicken Popcorn",
+      "description": "Chicken - Onion Rings - Fried Potatoes"
+    },
+    "kitchen-23": {
+      "name": "Crispy Cheddar Sauce",
+      "description": "Crispy Chicken Strips - Cheddar Cream Sauce - Fried Potatoes"
+    },
+    "kitchen-24": {
+      "name": "Kung Pao Shrimp",
+      "description": "Shrimp - Baby Corn - Peanuts - Sesame Oil - Sushi Rice"
+    },
+    "kitchen-25": {
+      "name": "Fish and Chips",
+      "description": "Hamour - Potato Chips"
+    },
+    "kitchen-26": {
+      "name": "Grilled Hamour with Lemon Herb Cream",
+      "description": "Hamour - Lemon Cream Sauce - Rice"
+    },
+    "kitchen-27": {
+      "name": "Halloumi Scallop with Roasted Sweet Potato",
+      "description": "Chicken - Vegetables - Grilled Potatoes"
+    },
+    "kitchen-28": {
+      "name": "Chicken with Yogurt Herb Sauce",
+      "description": "Chicken - Yogurt and Herb Sauce - Avocado - Vegetables"
+    },
+    "kitchen-29": {
+      "name": "Steak with Arugula, Balsamic and Soy Rice",
+      "description": "Steak - Arugula - Mushrooms - Balsamic Sauce"
+    },
+    "kitchen-30": {
+      "name": "Chicken Shawarma with Rice Salad",
+      "description": "Chicken - Rice - Vegetables - Soy"
+    },
+    "kitchen-31": {
+      "name": "Fish Fillet with Herbs and Quinoa",
+      "description": "Hamour - Quinoa - Vegetables - Halloumi Cheese"
+    },
+    "kitchen-32": {
+      "name": "Crispy with Roasted Sweet Potato",
+      "description": "Crispy Chicken Strips - Vegetables - Grilled Potatoes"
+    },
+    "kitchen-33": {
+      "name": "Tuna Sandwich",
+      "description": "Tuna - Vegetables - Whole Grain Bread"
+    },
+    "kitchen-34": {
+      "name": "Chicken Shawarma",
+      "description": "Chicken - Arabic Bread - Fried Potatoes"
+    },
+    "kitchen-35": {
+      "name": "Beef Shawarma",
+      "description": "Lamb Meat - Arabic Bread - Fried Potatoes"
+    },
+    "kitchen-36": {
+      "name": "Fajita Wrap Chicken",
+      "description": "Chicken - Vegetables - Tortilla - Cheese - Fried Potatoes"
+    },
+    "kitchen-37": {
+      "name": "Philadelphia Steak Sandwich",
+      "description": "Steak - Vegetables - Cheese - Baguette - Fried Potatoes"
+    },
+    "kitchen-38": {
+      "name": "Crispy Chicken Sandwich",
+      "description": "Crispy Chicken Strips - Cheddar Cheese - Vienna Bread - Fried Potatoes"
+    },
+    "kitchen-39": {
+      "name": "Classic Cheddar Burger",
+      "description": "Burger - Cheddar Cheese - Fried Potatoes"
+    },
+    "kitchen-40": {
+      "name": "Mushroom BBQ Burger",
+      "description": "Burger - Mozzarella Cheese - Barbecue Sauce - Fried Potatoes"
+    },
+    "kitchen-41": {
+      "name": "Noodle Soup with Chicken",
+      "description": "Vermicelli - Grilled Chicken - Brown Toast"
+    },
+    "kitchen-42": {
+      "name": "Onion Soup",
+      "description": "Onion - Toast - Mozzarella Cheese"
+    },
+    "kitchen-43": {
+      "name": "Lentil with Oat Soup",
+      "description": "Lentils - Oats - Fried Bread"
+    },
+    "kitchen-44": {
+      "name": "Mixed Cream Soup",
+      "description": "Fresh Cream - Chicken - Mushrooms - Sweet Corn - Toast - Parmesan Cheese"
+    },
+    "kitchen-45": {
+      "name": "Italian Panzanella",
+      "description": "Cherry Tomatoes - Cucumber - Arugula - Lollo Rosso Lettuce - Mushrooms - Sun-Dried Tomatoes - Grilled Cheese"
+    },
+    "kitchen-46": {
+      "name": "Thai Beef Noodles",
+      "description": "Arugula - Baby Corn - Soybean Sprouts - Noodles - Cherry Tomatoes - Steak"
+    },
+    "kitchen-47": {
+      "name": "Quinoa Tabbouleh",
+      "description": "Parsley - Tomatoes - Onion - Fresh Mint - Quinoa - Lemon - Olive Oil"
+    },
+    "kitchen-48": {
+      "name": "Arugula with Beets",
+      "description": "Arugula - Beetroot - Carrots - Mushrooms - Pomegranate"
+    },
+    "kitchen-49": {
+      "name": "Palmetto Salad",
+      "description": "Palm Heart - Lettuce - Mushrooms - Cherry Tomatoes - Corn - Carrots - Toast"
+    },
+    "kitchen-50": {
+      "name": "Tornado Salad",
+      "description": "Avocado - Corn - Red Beans - Cherry Tomatoes - Bell Pepper - Quinoa - Chicken - Cheddar Cheese - Nachos"
+    },
+    "kitchen-51": {
+      "name": "Caesar Chicken Salad",
+      "description": "Romaine Lettuce - Toast - Smoked Chicken - Parmesan Cheese - Caesar Dressing"
+    },
+    "kitchen-52": {
+      "name": "Caesar Shrimp Salad",
+      "description": "Romaine Lettuce - Toast - Basil - Shrimp - Parmesan Cheese - Caesar Dressing"
+    },
+    "kitchen-53": {
+      "name": "Lettuce Hearts with Roquefort",
+      "description": "Hearts of Romaine Lettuce - Roquefort Cheese - Walnuts"
+    },
+    "kitchen-54": {
+      "name": "Fortified Potatoes",
+      "description": "Potatoes - Cheese Cream"
+    },
+    "kitchen-55": {
+      "name": "French Fries",
+      "description": ""
+    },
+    "kitchen-56": {
+      "name": "Chicken Burritos",
+      "description": "Chicken - Vegetables - Cheese - Tortilla"
+    },
+    "kitchen-57": {
+      "name": "Buffalo Wings",
+      "description": "Fried Chicken Wings - Buffalo Sauce"
+    },
+    "kitchen-58": {
+      "name": "Tempura Hot Dog",
+      "description": "Hot Dog - Dijon Mustard - Ketchup"
+    },
+    "kitchen-59": {
+      "name": "Dynamite Shrimp",
+      "description": "Fried Shrimp - Potatoes - Dynamite Sauce"
+    },
+    "kitchen-60": {
+      "name": "Rice Chicken Bruschetta",
+      "description": "Rice Toast - Tomatoes - Basil - Chicken"
+    },
+    "kitchen-61": {
+      "name": "Rice Plate",
+      "description": ""
+    },
+    "kitchen-62": {
+      "name": "Garlic Bread",
+      "description": "Baguette - Herb Butter - Mozzarella Cheese"
+    },
+    "kitchen-63": {
+      "name": "Crispy BBQ",
+      "description": "Crispy Chicken Strips - Barbecue Sauce"
+    },
+    "kitchen-64": {
+      "name": "Mozzarella Sticks",
+      "description": "Fried Mozzarella Sticks - Pesto Cream"
+    },
+    "kitchen-65": {
+      "name": "Nachos",
+      "description": "Nachos - Red Beans - Corn - Jalapeño - Cheese"
+    },
+    "kitchen-66": {
+      "name": "Spaghetti Marinara with Shrimp",
+      "description": "Tomato Sauce - Parmesan Cheese - Fried Shrimp"
+    },
+    "kitchen-67": {
+      "name": "Yogurt Penne",
+      "description": "Yogurt Sauce - Pesto - Almonds - Cashews"
+    },
+    "kitchen-68": {
+      "name": "Chicken Fettuccine Alfredo",
+      "description": "Cream Sauce - Mushrooms - Parmesan Cheese - Fried Chicken"
+    },
+    "kitchen-69": {
+      "name": "Tornado Pasta",
+      "description": "Cheese Cream Sauce - Fried Chicken"
+    },
+    "kitchen-70": {
+      "name": "Avocado Cheese Toast",
+      "description": "Brown Toast - Avocado - White Cheese"
+    },
+    "kitchen-71": {
+      "name": "Vegetable Omelet with Mozzarella",
+      "description": "Eggs - Vegetables - Mozzarella Cheese - Lettuce - Cherry Tomatoes"
+    },
+    "kitchen-72": {
+      "name": "Fried Eggs with Bacon",
+      "description": "Eggs - White Toast - Bacon"
+    },
+    "kitchen-73": {
+      "name": "Scrambled Eggs with Turkey and Avocado",
+      "description": "Eggs - Brown Toast - Grilled Vegetables - Turkey - Avocado - White Cheese"
+    },
+    "kitchen-74": {
+      "name": "Carbonara Omelet Croissant",
+      "description": "Croissant - Eggs - Fresh Cream - Bacon - Parmesan Cheese"
+    },
+    "kitchen-75": {
+      "name": "Calzone",
+      "description": "Turkey - Hot Dog - Vegetables - Mozzarella Cheese"
+    },
+    "kitchen-76": {
+      "name": "Za'atar Croissant with Vegetables",
+      "description": "Croissant - Green Thyme - Beetroot - Vegetables"
+    },
+    "kitchen-77": {
+      "name": "Mixed Cheese Croissant with Vegetables",
+      "description": "Croissant - Mozzarella Cheese - White Cheese - Beetroot - Vegetables"
+    },
+    "kitchen-78": {
+      "name": "Fried Hot Dog",
+      "description": "Hot Dog - Baguette - Dijon Mustard - Ketchup"
+    },
+    "kitchen-79": {
+      "name": "Grilled Halloumi Cheese",
+      "description": ""
+    },
+    "kitchen-80": {
+      "name": "Olives with Vegetables",
+      "description": ""
+    },
+    "kitchen-81": {
+      "name": "Sujuk with Vegetables",
+      "description": ""
+    },
+    "kitchen-82": {
+      "name": "Breakfast Set 2",
+      "description": ""
+    },
+    "kitchen-83": {
+      "name": "Omelet Plate",
+      "description": ""
+    },
+    "kitchen-84": {
+      "name": "Halawa Plate",
+      "description": ""
+    },
+    "kitchen-85": {
+      "name": "Butter Plate",
+      "description": ""
+    },
+    "kitchen-86": {
+      "name": "Fava Beans Plate",
+      "description": ""
+    },
+    "kitchen-87": {
+      "name": "Labneh Plate",
+      "description": ""
+    },
+    "kitchen-88": {
+      "name": "Jam Plate",
+      "description": ""
+    },
+    "kitchen-89": {
+      "name": "Makdous Plate",
+      "description": ""
+    },
+    "kitchen-90": {
+      "name": "Hummus Fatteh",
+      "description": ""
+    },
+    "kitchen-91": {
+      "name": "Mushroom Skillet",
+      "description": ""
+    },
+    "kitchen-92": {
+      "name": "Mixed Manakish",
+      "description": "Thyme - Toasted with Mozzarella - Syrian Cheese"
+    },
+     "kitchen-93": {
+      "name": "Extra Parmesan Cheese",
+      "description": "Additional parmesan cheese"
+    },
+    "kitchen-94": {
+      "name": "Extra Cheddar Cheese",
+      "description": "Additional cheddar cheese"
+    },
+    "kitchen-95": {
+      "name": "Extra Cheddar Cheese Slice",
+      "description": "Additional cheddar cheese slice"
+    },
+    "kitchen-96": {
+      "name": "Extra Roquefort Cheese",
+      "description": "Additional Roquefort cheese"
+    },
+    "kitchen-97": {
+      "name": "Extra Mozzarella Cheese",
+      "description": "Additional mozzarella cheese"
+    },
+    "kitchen-98": {
+      "name": "Extra Bread",
+      "description": "Additional bread"
+    },
+    "kitchen-99": {
+      "name": "Extra Mustard",
+      "description": "Additional mustard"
+    },
+    "kitchen-100": {
+      "name": "Extra Sriracha",
+      "description": "Additional Sriracha sauce"
+    },
+    "kitchen-101": {
+      "name": "Extra Ketchup",
+      "description": "Additional ketchup"
+    },
+    "kitchen-102": {
+      "name": "Extra Mayonnaise",
+      "description": "Additional mayonnaise"
+    },
+    "kitchen-103": {
+      "name": "Extra Garlic Mayonnaise",
+      "description": "Additional garlic mayonnaise"
+    },
+    "kitchen-104": {
+      "name": "White Baguette Bread",
+      "description": "White baguette bread"
+    },
+    "kitchen-105": {
+      "name": "Whole Grain Baguette Bread",
+      "description": "Whole grain baguette bread"
+    },
+    "kitchen-106": {
+      "name": "Aioli Mexican Mayonnaise Sauce",
+      "description": "Aioli Mexican mayonnaise sauce"
+    },
+    "kitchen-107": {
+      "name": "Cold Avocado Sauce",
+      "description": "Cold avocado sauce"
+    },
+    "kitchen-108": {
+      "name": "Cold Entrecote Sauce",
+      "description": "Cold entrecote sauce"
+    },
+    "kitchen-109": {
+      "name": "Hot Entrecote Sauce",
+      "description": "Hot entrecote sauce"
+    },
+    "kitchen-110": {
+      "name": "Cold Tahini Sauce",
+      "description": "Cold tahini sauce"
+    },
+    "kitchen-111": {
+      "name": "Cold Balsamic Sauce",
+      "description": "Cold balsamic sauce"
+    },
+    "kitchen-112": {
+      "name": "Pepper Sauce",
+      "description": "Pepper sauce"
+    },
+    "kitchen-113": {
+      "name": "Cold Thai Beef Sauce",
+      "description": "Cold Thai beef sauce"
+    },
+    "kitchen-114": {
+      "name": "Teriyaki Sauce",
+      "description": "Teriyaki sauce"
+    },
+    "kitchen-115": {
+      "name": "Cheddar Sauce",
+      "description": "Cheddar sauce"
+    },
+    "kitchen-116": {
+      "name": "Cold Tornado Sauce",
+      "description": "Cold Tornado sauce"
+    },
+    "kitchen-117": {
+      "name": "Roquefort Sauce",
+      "description": "Roquefort sauce"
+    },
+    "kitchen-118": {
+      "name": "Cold Roquefort Sauce",
+      "description": "Cold Roquefort sauce"
+    },
+    "kitchen-119": {
+      "name": "Saffron Sauce",
+      "description": "Saffron sauce"
+    },
+    "kitchen-120": {
+      "name": "Caesar Sauce",
+      "description": "Caesar sauce"
+    },
+    "kitchen-121": {
+      "name": "Cold Green Sauce",
+      "description": "Cold green sauce"
+    },
+    "kitchen-122": {
+      "name": "Cashew Sauce",
+      "description": "Cashew sauce"
+    },
+    "kitchen-123": {
+      "name": "Cream Sauce",
+      "description": "Cream sauce"
+    },
+    "kitchen-124": {
+      "name": "Cordon Bleu Sauce",
+      "description": "Cordon bleu sauce"
+    },
+    "kitchen-125": {
+      "name": "Lemon Herb Sauce",
+      "description": "Lemon herb sauce"
+    },
+    "kitchen-126": {
+      "name": "Marsala Sauce",
+      "description": "Marsala sauce"
+    },
+    "kitchen-127": {
+      "name": "Mustard Sauce",
+      "description": "Mustard sauce"
+    },
+    "kitchen-128": {
+      "name": "Cold Chili Mayonnaise Sauce",
+      "description": "Cold chili mayonnaise sauce"
+    },
+    "kitchen-129": {
+      "name": "Mushroom Sauce",
+      "description": "Mushroom sauce"
+    },
+    "kitchen-130": {
+      "name": "Fire Extinguisher Sauce",
+      "description": "Very spicy sauce"
+    },
+    "kitchen-131": {
+      "name": "Napoli Sauce",
+      "description": "Napoli sauce"
+    },
+    "kitchen-132": {
+      "name": "Cold Honey Mustard Sauce",
+      "description": "Cold honey mustard sauce"
+    },
+    "kitchen-133": {
+      "name": "Burger Patty",
+      "description": "Burger patty"
+    },
+    "bar-1": {
+    "name": "Hookah Session",
+    "description": "Hookah session with two apples"
+  },
+  "bar-2": {
+    "name": "Hookah Refill",
+    "description": "Hookah tobacco refill"
+  },
+  "bar-3": {
+    "name": "Charcoal Plate",
+    "description": "Charcoal plate"
+  },
+  "bar-4": {
+    "name": "Extra Espresso",
+    "description": "Additional espresso"
+  },
+  "bar-5": {
+    "name": "Extra Ice Cream",
+    "description": "Additional ice cream"
+  },
+  "bar-6": {
+    "name": "Extra Milk",
+    "description": "Additional milk"
+  },
+  "bar-7": {
+    "name": "Extra Almond Milk",
+    "description": "Additional almond milk"
+  },
+  "bar-8": {
+    "name": "Extra Ginger",
+    "description": "Additional ginger"
+  },
+  "bar-9": {
+    "name": "Extra Herbal Tea",
+    "description": "Additional herbal tea"
+  },
+  "bar-10": {
+    "name": "Extra Syrup",
+    "description": "Additional syrup"
+  },
+  "bar-11": {
+    "name": "Extra Tea",
+    "description": "Additional tea"
+  },
+  "bar-12": {
+    "name": "Extra Chocolate",
+    "description": "Additional chocolate"
+  },
+  "bar-13": {
+    "name": "Extra Blueberry Sauce",
+    "description": "Additional blueberry sauce"
+  },
+  "bar-14": {
+    "name": "Extra Routine Sauce",
+    "description": "Additional routine sauce"
+  },
+  "bar-15": {
+    "name": "Extra Honey",
+    "description": "Additional honey"
+  },
+  "bar-16": {
+    "name": "Extra Grenadine",
+    "description": "Additional grenadine"
+  },
+  "bar-17": {
+    "name": "Extra Cinnamon",
+    "description": "Additional cinnamon"
+  },
+  "bar-18": {
+    "name": "Extra Nescafe",
+    "description": "Additional Nescafe"
+  },
+  "bar-19": {
+    "name": "Extra Cardamom",
+    "description": "Additional cardamom"
+  },
+  "bar-20": {
+    "name": "Lemon Slice",
+    "description": "Lemon slice"
+  },
+  "bar-21": {
+    "name": "Lemon Wedges",
+    "description": "Lemon wedges"
+  },
+  "bar-22": {
+    "name": "Asia Bowl Diet",
+    "description": "Mixed berries - nuts"
+  },
+  "bar-23": {
+    "name": "Bamper Do",
+    "description": "Toast - caramel - cinnamon"
+  },
+  "bar-24": {
+    "name": "Browns Tornado",
+    "description": ""
+  },
+  "bar-25": {
+    "name": "Oreo Cheesecake",
+    "description": ""
+  },
+  "bar-26": {
+    "name": "Blueberry Cheesecake",
+    "description": ""
+  },
+  "bar-27": {
+    "name": "Lotus Cheesecake",
+    "description": ""
+  },
+  "bar-28": {
+    "name": "Lemon Cheesecake",
+    "description": ""
+  },
+  "bar-29": {
+    "name": "Nutella Cheesecake",
+    "description": ""
+  },
+  "bar-30": {
+    "name": "Iced Spanish Latte",
+    "description": "Milk - espresso - Nescafe"
+  },
+  "bar-31": {
+    "name": "Iced Caramel",
+    "description": "Milk - espresso - caramel"
+  },
+  "bar-32": {
+    "name": "Iced Latte",
+    "description": "Milk - espresso"
+  },
+  "bar-33": {
+    "name": "Iced Matcha",
+    "description": "Milk - matcha - vanilla"
+  },
+  "bar-34": {
+    "name": "Iced Mocha",
+    "description": "Milk - espresso - sauce"
+  },
+  "bar-35": {
+    "name": "Tornado Frappe",
+    "description": ""
+  },
+  "bar-36": {
+    "name": "Toffee Frappe",
+    "description": "Frappe - toffee"
+  },
+  "bar-37": {
+    "name": "Mocha Frappe",
+    "description": ""
+  },
+  "bar-38": {
+    "name": "Classic Frappuccino",
+    "description": ""
+  },
+  "bar-39": {
+    "name": "Caramel Frappe",
+    "description": ""
+  },
+  "bar-40": {
+    "name": "Matcha Frappe",
+    "description": ""
+  },
+  "bar-41": {
+    "name": "Polo Strawberry",
+    "description": "Strawberry - lemon - mint"
+  },
+  "bar-42": {
+    "name": "Pina Colada",
+    "description": "Milk - pineapple - coconut"
+  },
+  "bar-43": {
+    "name": "Triple Berry",
+    "description": "Milk - mixed berries"
+  },
+  "bar-44": {
+    "name": "Tropical Fruit",
+    "description": "Tropical fruits"
+  },
+  "bar-45": {
+    "name": "Fruit Cocktail",
+    "description": ""
+  },
+  "bar-46": {
+    "name": "Mango Passion Berry",
+    "description": "Mixed berries - mango - syrup"
+  },
+  "bar-47": {
+    "name": "Banana and Milk (Chocolate)",
+    "description": ""
+  },
+  "bar-48": {
+    "name": "Banana and Milk (Strawberry)",
+    "description": ""
+  },
+  "bar-49": {
+    "name": "Banana and Milk (Classic)",
+    "description": ""
+  },
+  "bar-50": {
+    "name": "Americano",
+    "description": "American coffee"
+  },
+  "bar-51": {
+    "name": "Avoca Espresso",
+    "description": "Espresso - vanilla ice cream"
+  },
+  "bar-52": {
+    "name": "Bon Bon Espresso",
+    "description": "Espresso - Nescafe"
+  },
+  "bar-53": {
+    "name": "Tornado Espresso",
+    "description": ""
+  },
+  "bar-54": {
+    "name": "Double Espresso",
+    "description": ""
+  },
+  "bar-55": {
+    "name": "Ristretto Espresso",
+    "description": ""
+  },
+  "bar-56": {
+    "name": "Single Espresso",
+    "description": ""
+  },
+  "bar-57": {
+    "name": "Con Panna Espresso",
+    "description": "Espresso - cream"
+  },
+  "bar-58": {
+    "name": "Lungo Espresso",
+    "description": ""
+  },
+  "bar-59": {
+    "name": "Macchiato Espresso",
+    "description": "Espresso - milk"
+  },
+  "bar-60": {
+    "name": "Americano Coffee",
+    "description": ""
+  },
+  "bar-61": {
+    "name": "Pistachio Latte",
+    "description": "Espresso - milk - pistachio"
+  },
+  "bar-62": {
+    "name": "Red Eye",
+    "description": "Americano - espresso"
+  },
+  "bar-63": {
+    "name": "Ginger and Orange",
+    "description": ""
+  },
+  "bar-64": {
+    "name": "Ginger and Lemon",
+    "description": ""
+  },
+  "bar-65": {
+    "name": "Spanish Latte",
+    "description": "Espresso - Nescafe - milk"
+  },
+  "bar-66": {
+    "name": "Salep",
+    "description": "Salep - nuts"
+  },
+  "bar-67": {
+    "name": "Tea",
+    "description": ""
+  },
+  "bar-68": {
+    "name": "Flat White",
+    "description": "Espresso - milk"
+  },
+  "bar-69": {
+    "name": "Turkish Coffee",
+    "description": ""
+  },
+  "bar-70": {
+    "name": "Double Coffee",
+    "description": ""
+  },
+  "bar-71": {
+    "name": "Hazelnut Cappuccino",
+    "description": "Espresso - syrup - milk"
+  },
+  "bar-72": {
+    "name": "Vanilla Cappuccino",
+    "description": "Espresso - syrup - milk"
+  },
+  "bar-73": {
+    "name": "Caramel Cappuccino",
+    "description": "Espresso - syrup - milk"
+  },
+  "bar-74": {
+    "name": "Classic Cappuccino",
+    "description": "Espresso - milk"
+  },
+  "bar-75": {
+    "name": "Classic Cafe Latte",
+    "description": "Espresso - milk"
+  },
+  "bar-76": {
+    "name": "Flavored Cafe Latte",
+    "description": "Espresso - syrup - milk"
+  },
+  "bar-77": {
+    "name": "Matcha Latte",
+    "description": "Matcha - milk - syrup"
+  },
+  "bar-78": {
+    "name": "Moccaccino",
+    "description": "Chocolate sauce - milk - espresso"
+  },
+  "bar-79": {
+    "name": "Mixed Herbal",
+    "description": "Cardamom - ginger - lemon - rosemary"
+  },
+  "bar-80": {
+    "name": "Nescafe Gold",
+    "description": ""
+  },
+  "bar-81": {
+    "name": "Nescafe with Milk",
+    "description": ""
+  },
+  "bar-82": {
+    "name": "Boiled Mint",
+    "description": ""
+  },
+  "bar-83": {
+    "name": "Hot Oreo",
+    "description": "Hot chocolate - milk - Oreo"
+  },
+  "bar-84": {
+    "name": "Hot Chocolate",
+    "description": "Hot chocolate - milk"
+  },
+  "bar-85": {
+    "name": "Hot Chocolate Tornado",
+    "description": "Hot chocolate - milk - ice cream - cream"
+  },
+  "bar-86": {
+    "name": "Pistachio Shake",
+    "description": "Milk - ice cream - pistachio"
+  },
+  "bar-87": {
+    "name": "Blueberry Shake",
+    "description": "Milk - ice cream - blueberry"
+  },
+  "bar-88": {
+    "name": "Cardamom Shake",
+    "description": "Milk - ice cream - cardamom"
+  },
+  "bar-89": {
+    "name": "Oreo Milkshake",
+    "description": "Milk - ice cream - Oreo"
+  },
+  "bar-90": {
+    "name": "Tornado Milkshake",
+    "description": ""
+  },
+  "bar-91": {
+    "name": "Chocolate Milkshake",
+    "description": "Milk - ice cream - cream"
+  },
+  "bar-92": {
+    "name": "Vanilla Milkshake",
+    "description": "Milk - ice cream - cream"
+  },
+  "bar-93": {
+    "name": "Strawberry Milkshake",
+    "description": "Milk - ice cream - cream"
+  },
+  "bar-94": {
+    "name": "Passion Fruit Iced Tea",
+    "description": ""
+  },
+  "bar-95": {
+    "name": "Peach Iced Tea",
+    "description": ""
+  },
+  "bar-96": {
+    "name": "Lemon Iced Tea",
+    "description": ""
+  },
+  "bar-97": {
+    "name": "Fresh Ginger Orange Iced Tea",
+    "description": "Ginger - orange - tea"
+  },
+  "bar-98": {
+    "name": "Fresh Ginger Lemon Iced Tea",
+    "description": "Ginger - lemon - tea"
+  },
+  "bar-99": {
+    "name": "Avocado",
+    "description": "Avocado - nuts - banana"
+  },
+  "bar-100": {
+    "name": "Sour Drink",
+    "description": "Orange - lemon - strawberry - kiwi - honey"
+  },
+  "bar-101": {
+    "name": "Banana, Milk, Oats, Dates and Raisins",
+    "description": ""
+  },
+  "bar-102": {
+    "name": "Banana, Milk, Nuts and Honey",
+    "description": ""
+  },
+  "bar-103": {
+    "name": "Healthy Drink",
+    "description": "Lemon - ginger - orange - apple - honey"
+  },
+  "bar-104": {
+    "name": "Yogurt Drink Berries",
+    "description": "Powder - milk - berries - honey"
+  },
+  "bar-105": {
+    "name": "Yogurt Drink Honey",
+    "description": "Powder - milk - honey"
+  },
+  "bar-106": {
+    "name": "Yogurt Drink Strawberry",
+    "description": "Powder - milk - strawberry - honey"
+  },
+  "bar-107": {
+    "name": "Yogurt Drink Mango",
+    "description": "Powder - milk - mango - honey"
+  },
+  "bar-108": {
+    "name": "Orange Ginger Merry",
+    "description": ""
+  },
+  "bar-109": {
+    "name": "Red and Blue",
+    "description": "Lemon grenadine - mint - pineapple - blue"
+  },
+  "bar-110": {
+    "name": "Passion Fruit Mojito",
+    "description": ""
+  },
+  "bar-111": {
+    "name": "Peach Mojito",
+    "description": ""
+  },
+  "bar-112": {
+    "name": "Classic Mojito",
+    "description": ""
+  },
+  "bar-113": {
+    "name": "Mixed Berry Mojito",
+    "description": ""
+  },
+  "bar-114": {
+    "name": "Yellow Mix",
+    "description": "Peach - passion fruit - pineapple"
+  },
+  "bar-115": {
+    "name": "Watermelon Juice",
+    "description": ""
+  },
+  "bar-116": {
+    "name": "Peach Juice",
+    "description": ""
+  },
+  "bar-117": {
+    "name": "Pomegranate Juice",
+    "description": ""
+  },
+  "bar-118": {
+    "name": "Melon Juice",
+    "description": ""
+  },
+  "bar-119": {
+    "name": "Grapefruit Juice",
+    "description": ""
+  },
+  "bar-120": {
+    "name": "Orange and Carrot",
+    "description": ""
+  },
+  "bar-121": {
+    "name": "Orange and Grapefruit",
+    "description": ""
+  },
+  "bar-122": {
+    "name": "Orange and Lemon",
+    "description": ""
+  },
+  "bar-123": {
+    "name": "Carrot and Apple",
+    "description": ""
+  },
+  "bar-124": {
+    "name": "Pineapple Juice",
+    "description": ""
+  },
+  "bar-125": {
+    "name": "Orange Juice",
+    "description": ""
+  },
+  "bar-126": {
+    "name": "Polo Juice",
+    "description": ""
+  },
+  "bar-127": {
+    "name": "Apple Juice",
+    "description": ""
+  },
+  "bar-128": {
+    "name": "Berry Juice",
+    "description": ""
+  },
+  "bar-129": {
+    "name": "Carrot Juice",
+    "description": ""
+  },
+  "bar-130": {
+    "name": "Strawberry Juice",
+    "description": ""
+  },
+  "bar-131": {
+    "name": "Kiwi Juice",
+    "description": ""
+  },
+  "bar-132": {
+    "name": "Kiwi and Pineapple Juice",
+    "description": ""
+  },
+  "bar-133": {
+    "name": "Lemon Juice",
+    "description": ""
+  },
+  "bar-134": {
+    "name": "Mango Juice",
+    "description": ""
+  },
+  "bar-135": {
+    "name": "Strawberry and Berry",
+    "description": ""
+  },
+  "bar-136": {
+    "name": "Strawberry and Kiwi",
+    "description": ""
+  },
+  "bar-137": {
+    "name": "Strawberry and Lemon",
+    "description": ""
+  }
+  },
+  "MNEUBTN":{
+     "viewMenu": "View Menu",
+     "viewMenuSub": "عرض القائمة"
+  },
+  "restaurantName": "Tornado Restaurant and Café",
+  "chooseMenu": "Choose Menu",
+  "kitchenMenu": "Kitchen Menu",
+  "barMenu": "Bar Menu",
+  "kitchenMenuDescription": "Wide variety of main dishes, appetizers, salads, and traditional foods",
+  "barMenuDescription": "Hot and cold drinks, cocktails, fresh juices, and premium hookah",
+  "back": "Back",
+  "categoriesComingSoon": "Categories Coming Soon",
+  "noItemsInCategory": "No items in this category",
+  "collection": "Collection",
+  "item": "item",
+  "items": "items",
+  "unavailable": "Unavailable",
+  "popular": "Popular",
+  "currency": "SYP",
+  "address": "Syria, Damascus",
+  "cityCountry": "MAZZA - Damascus, Syria",
+  "customerService": "Customer Service: 24/7",
+  "allRightsReserved": "All rights reserved.",
+  "footerDescription": "An exceptional dining experience that combines authentic traditions with contemporary innovation",
+  "ingredients": "Ingredients",
+  "noIngredientsAvailable": "No ingredients available"
+}

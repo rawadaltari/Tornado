@@ -12,6 +12,7 @@ import {
   getMarginBottom,
   getViewportMargin
 } from './CategoryCardAnimations';
+import { useTranslation } from 'react-i18next';
 
 interface CategoryCardProps {
   category: Category & { image?: string };
@@ -19,6 +20,8 @@ interface CategoryCardProps {
   onClick: (category: Category) => void;
   isCollection?: boolean;
   index: number;
+  customIcon?: React.ReactNode;
+  customDescription?: string;
 }
 
 export function CategoryCard({
@@ -27,7 +30,10 @@ export function CategoryCard({
   onClick,
   isCollection = false,
   index,
+  customIcon,
+  customDescription,
 }: CategoryCardProps) {
+  const { t } = useTranslation();
   const [isMobile, setIsMobile] = useState(false);
   const [imageError, setImageError] = useState(false);
   
@@ -101,7 +107,13 @@ export function CategoryCard({
           <div className="absolute inset-0 rounded-full bg-gradient-to-br from-white to-yellow-50 shadow-md transform -rotate-6 opacity-60 group-hover:opacity-80 transition-opacity duration-200" />
           
           <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white shadow-lg">
-            {imageUrl && !imageError ? (
+            {customIcon ? (
+              <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-[#285349]/10 to-[#f4ce62]/20">
+                <div className="text-[#285349] transform scale-110">
+                  {customIcon}
+                </div>
+              </div>
+            ) : imageUrl && !imageError ? (
               <motion.img
                 src={imageUrl}
                 alt={category.name}
@@ -147,6 +159,16 @@ export function CategoryCard({
           {category.name}
         </motion.h2>
 
+        {customDescription && (
+          <motion.p
+            className="text-xs text-[#285349]/70 mb-2 px-1 line-clamp-2"
+            whileHover={{ color: "#285349" }}
+            transition={{ duration: 0.15 }}
+          >
+            {customDescription}
+          </motion.p>
+        )}
+
         {isCollection ? (
           <motion.span
             className="inline-flex items-center gap-1 text-[10px] font-medium px-1.5 py-0.5 bg-gradient-to-r from-[#285349]/10 to-[#f4ce62]/20 rounded-full border border-[#285349]/20 text-[#285349]"
@@ -160,7 +182,7 @@ export function CategoryCard({
             >
               ✨
             </motion.span>
-            Collection
+            {t('collection')}
           </motion.span>
         ) : (
           <motion.div
@@ -168,7 +190,7 @@ export function CategoryCard({
             whileHover={{ scale: 1.02 }}
           >
             <span className={`${textSizes.count} font-semibold text-[#285349]`}>
-              {itemCount} {itemCount === 1 ? 'item' : 'items'}
+              {itemCount} {itemCount === 1 ? t('item') : t('items')}
             </span>
             <motion.div
               className="absolute -inset-1.5 bg-gradient-to-r from-[#285349]/10 to-[#f4ce62]/10 rounded-full -z-10"

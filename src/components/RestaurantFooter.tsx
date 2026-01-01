@@ -1,11 +1,13 @@
-import {  Phone, MapPin } from "lucide-react";
+import { Phone, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
 
 export default function RestaurantFooter() {
+  const { t, i18n } = useTranslation();
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-[#29554d] text-[#E9E2DE] py-12 relative overflow-hidden border-t border-[#C3A05C]/30 ">
+    <footer className="bg-[#29554d] text-[#E9E2DE] py-12 relative overflow-hidden border-t border-[#C3A05C]/30">
       {/* تأثيرات خلفية خفيفة */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-1/4 left-1/4 w-64 h-64 rounded-full bg-[#C3A05C] blur-3xl"></div>
@@ -27,12 +29,11 @@ export default function RestaurantFooter() {
             className="text-center lg:text-right"
           >
             <div className="flex flex-col lg:flex-row items-center gap-4 mb-4">
-              <div className=" inline-flex">
-                <img src="/assets/logotop.png" alt="Tornado Restaurant Logo" className="w-32 h-32" />
+              <div className="inline-flex">
+                <img src="/assets/logotop.png" alt={t('restaurantName')} className="w-32 h-32" />
               </div>
               <div>
-                
-                
+                {/* يمكن إضافة نص هنا إذا لزم الأمر */}
               </div>
             </div>
           </motion.div>
@@ -49,11 +50,13 @@ export default function RestaurantFooter() {
               <div className="bg-[#73B17A]/20 p-2 rounded-lg border border-[#73B17A]/30">
                 <MapPin className="w-5 h-5 text-[#E9E2DE]" />
               </div>
-              <div className="text-right">
+              <div className={i18n.language === 'ar' ? 'text-right' : 'text-left'}>
                 <p className="text-[#E9E2DE] text-sm lg:text-base">
-                   
+                  {t('address')}
                 </p>
-                <p className="text-[#E9E2DE]/70 text-md font-bold">syria damascus  </p>
+                <p className="text-[#E9E2DE]/70 text-md font-bold">
+                  {t('cityCountry')}
+                </p>
               </div>
             </motion.div>
 
@@ -67,14 +70,16 @@ export default function RestaurantFooter() {
               <div className="bg-[#73B17A]/20 p-2 rounded-lg border border-[#73B17A]/30">
                 <Phone className="w-5 h-5 text-[#E9E2DE]" />
               </div>
-              <div>
+              <div className={i18n.language === 'ar' ? 'text-right' : 'text-left'}>
                 <a 
-                  href="tel:+966112345678"
+                  href="tel:+963112345678"
                   className="text-[#E9E2DE] hover:text-[#C3A05C] transition-colors duration-300 text-sm lg:text-base font-medium"
                 >
                   +963 11 234 5678
                 </a>
-                <p className="text-[#E9E2DE]/70 text-xs">خدمة العملاء: 24/7</p>
+                <p className="text-[#E9E2DE]/70 text-xs">
+                  {t('customerService')}
+                </p>
               </div>
             </motion.div>
           </div>
@@ -91,10 +96,10 @@ export default function RestaurantFooter() {
             transition={{ delay: 0.5 }}
             className="text-[#E9E2DE]/80 text-sm"
           >
-            © {currentYear} Tornado Restaurant. جميع الحقوق محفوظة.
+            © {currentYear} {t('restaurantName')}. {t('allRightsReserved')}
           </motion.p>
           <p className="text-[#E9E2DE]/60 text-sm mt-2">
-            تجربة طعام استثنائية تجمع بين التقاليد الأصيلة والابتكار المعاصر
+            {t('footerDescription')}
           </p>
         </div>
 
