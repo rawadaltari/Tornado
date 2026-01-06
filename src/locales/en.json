@@ -1112,8 +1112,7 @@
   }
   },
   "MNEUBTN":{
-     "viewMenu": "View Menu",
-     "viewMenuSub": "عرض القائمة"
+     "viewMenu": "View Menu"
   },
   "restaurantName": "Tornado Restaurant and Café",
   "chooseMenu": "Choose Menu",

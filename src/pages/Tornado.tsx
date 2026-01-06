@@ -135,7 +135,7 @@ export default function Tornado() {
             onClick={goToMenu}
             className="mt-14 px-4 py-2 bg-[#f4ce61] text-[#285349] rounded-full text-md shadow-2xl hover:from-amber-600 hover:to-amber-700 transition-all duration-200"
           >
-            {i18n.language === 'ar' ? 'عرض القائمة' : 'View Menu'}
+            
             <div className="text-sm  mt-1">
               {i18n.language === 'ar' ? 'View Menu' : 'عرض القائمة'}
             </div>

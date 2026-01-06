@@ -1112,14 +1112,14 @@
   }
   },
   "MNEUBTN":{
-     "viewMenu": "عرض القائمة",
-     "viewMenuSub": "View Menu"
+     "viewMenu": "عرض القائمة"
+     
   },
 
   "restaurantName": "مطعم  وكافية تورنيدو دبي",
   "chooseMenu": "اختر القائمة",
-  "kitchenMenu": "منيو المطبخ",
-  "barMenu": "منيو البار",
+  "kitchenMenu": "قائمة المطبخ",
+  "barMenu": "قائمة البار",
   "kitchenMenuDescription": "تشكيلة واسعة من الأطباق الرئيسية، المقبلات، السلطات، والأطعمة التقليدية",
   "barMenuDescription": "مشروبات ساخنة وباردة، كوكتيلات، عصائر طازجة، ومعسل فاخر",
   "back": "رجوع",
