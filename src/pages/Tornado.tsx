@@ -137,7 +137,7 @@ export default function Tornado() {
           >
             
             <div className="text-sm  mt-1">
-              {i18n.language === 'ar' ? 'View Menu' : 'عرض القائمة'}
+              {i18n.language === 'ar' ? 'عرض القائمة' : 'View Menu'}
             </div>
           </motion.button>
 
