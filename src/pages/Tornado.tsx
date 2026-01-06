@@ -40,27 +40,55 @@ export default function Tornado() {
   return (
     <div className="relative h-screen overflow-hidden bg-gradient-to-br from-teal-900 via-teal-800 to-emerald-900">
 
-      {/* تأثير غلق الصفحة */}
-      <AnimatePresence>
-        {opening && (
-          <>
-            <motion.div
-              className="fixed inset-y-0 left-0 w-1/2 bg-[#285349] z-30"
-              initial={{ x: "-100%" }}
-              animate={{ x: 0 }}
-              exit={{ x: "-100%" }}
-              transition={{ duration: 0.8, ease: "easeInOut" }}
-            />
-            <motion.div
-              className="fixed inset-y-0 right-0 w-1/2 bg-[#f4c559] z-30"
-              initial={{ x: "100%" }}
-              animate={{ x: 0 }}
-              exit={{ x: "100%" }}
-              transition={{ duration: 0.8, ease: "easeInOut" }}
-            />
-          </>
-        )}
-      </AnimatePresence>
+    {/* تأثير انقسام الصفحة مع ظل */}
+<AnimatePresence>
+  {opening && (
+    <>
+      {/* الظل الخلفي */}
+      <motion.div
+        className="fixed inset-0 bg-black z-40"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 0.6 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.4 }}
+      />
+      
+      {/* الصفحة اليمنى */}
+      <motion.div
+        className="fixed top-0 right-0 w-1/2 h-full bg-gradient-to-l from-emerald-900 to-emerald-800 z-50 shadow-2xl"
+        initial={{ x: "100%", scale: 0.9, rotateY: 10 }}
+        animate={{ x: 0, scale: 1, rotateY: 0 }}
+        exit={{ x: "100%", scale: 0.9, rotateY: 10 }}
+        transition={{ 
+          duration: 0.8,
+          ease: [0.33, 1, 0.68, 1]
+        }}
+      >
+        {/* تأثير حافة الكتاب */}
+        <div className="absolute left-0 top-0 h-full w-2 bg-gradient-to-r from-amber-500/50 via-amber-400/30 to-transparent" />
+        {/* ظل داخلي */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/10 to-transparent" />
+      </motion.div>
+      
+      {/* الصفحة اليسرى */}
+      <motion.div
+        className="fixed top-0 left-0 w-1/2 h-full bg-gradient-to-r from-emerald-800 to-emerald-900 z-50 shadow-2xl"
+        initial={{ x: "-100%", scale: 0.9, rotateY: -10 }}
+        animate={{ x: 0, scale: 1, rotateY: 0 }}
+        exit={{ x: "-100%", scale: 0.9, rotateY: -10 }}
+        transition={{ 
+          duration: 0.8,
+          ease: [0.33, 1, 0.68, 1]
+        }}
+      >
+        {/* تأثير حافة الكتاب */}
+        <div className="absolute right-0 top-0 h-full w-2 bg-gradient-to-l from-amber-500/50 via-amber-400/30 to-transparent" />
+        {/* ظل داخلي */}
+        <div className="absolute inset-0 bg-gradient-to-l from-black/10 to-transparent" />
+      </motion.div>
+    </>
+  )}
+</AnimatePresence>
 
       {/* Floating Menu Toggle */}
       <button
