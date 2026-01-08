@@ -18,6 +18,7 @@ export const CATEGORIES: Category[] = [
   { id: 'sandwiches', name: 'السندويش', display_order: 7, created_at: '', image: '/assets/sandoeh.png', menu_type: 'kitchen' },
   
   // منيو بار
+  { id: 'hookah', name: 'معسل تفاحتين', display_order: 1, created_at: '', image: '/assets/Traditional hookah with blue accents.png', menu_type: 'bar' },
   { id: 'hot-drinks', name: 'المشروبات الساخنة', display_order: 6, created_at: '', image: '/assets/cafe.webp', menu_type: 'bar' },
   { id: 'cold-coffee', name: 'القهوة الباردة', display_order: 4, created_at: '', image: '/assets/KHL_5892-webp.webp', menu_type: 'bar' },
   { id: 'cocktails', name: 'الكوكتيلات', display_order: 5, created_at: '', image: '/assets/cocktail.webp', menu_type: 'bar' },
