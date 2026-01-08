@@ -17,7 +17,6 @@ export const CATEGORIES: Category[] = [
   { id: 'diet-meals', name: ' دايت', display_order: 6, created_at: '', image: '/assets/daet.png', menu_type: 'kitchen' },
   { id: 'sandwiches', name: 'السندويش', display_order: 7, created_at: '', image: '/assets/sandoeh.png', menu_type: 'kitchen' },
   
-  
   // منيو بار
   { id: 'hot-drinks', name: 'المشروبات الساخنة', display_order: 6, created_at: '', image: '/assets/cafe.webp', menu_type: 'bar' },
   { id: 'cold-coffee', name: 'القهوة الباردة', display_order: 4, created_at: '', image: '/assets/KHL_5892-webp.webp', menu_type: 'bar' },
@@ -29,26 +28,22 @@ export const CATEGORIES: Category[] = [
   { id: 'seasonal-juices', name: 'عصائر موسمية', display_order: 11, created_at: '', image: '/assets/seasonal-juice.png', menu_type: 'bar' },
   { id: 'fresh-juices', name: 'فريش', display_order: 12, created_at: '', image: '/assets/fresh.webp', menu_type: 'bar' },
   { id: 'sweets', name: 'الحلويات', display_order: 3, created_at: '', image: '/assets/sweet.png', menu_type: 'bar' },
-  
-  
-  
-  
 ];
 
-// MENU_ITEMS المدمجة مع تعديلات الفطور
+// MENU_ITEMS المدمجة مع إعادة ترقيم IDs لتجنب التكرار
 export const MENU_ITEMS: MenuItem[] = [
   // ===== منيو مطبخ =====
   
-  // 1. مناقيش
-  { id: 'kitchen-92', category_id: 'manakish', name: 'منفوشة ميكس', description: '', price: 390, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-1', category_id: 'manakish', name: 'جينة بيضاء و خضار', description: '', price: 380, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-2', category_id: 'manakish', name: 'محمرة موززيلا', description: '', price: 380, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-3', category_id: 'manakish', name: 'لبنة ومكدوس', description: '', price: 410, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-4', category_id: 'manakish', name: 'زعتر و خضار', description: '', price: 250, image_url: null, display_order: 5, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-5', category_id: 'manakish', name: 'لبنة وسماق لبنانية', description: '', price: 270, image_url: null, display_order: 6, available: true, created_at: '', updated_at: '' },
+  // 1. مناقيش (IDs: 1-6)
+  { id: 'kitchen-1', category_id: 'manakish', name: 'منفوشة ميكس', description: '', price: 390, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-2', category_id: 'manakish', name: 'جينة بيضاء و خضار', description: '', price: 380, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-3', category_id: 'manakish', name: 'محمرة موززيلا', description: '', price: 380, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-4', category_id: 'manakish', name: 'لبنة ومكدوس', description: '', price: 410, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-5', category_id: 'manakish', name: 'زعتر و خضار', description: '', price: 250, image_url: null, display_order: 5, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-6', category_id: 'manakish', name: 'لبنة وسماق لبنانية', description: '', price: 270, image_url: null, display_order: 6, available: true, created_at: '', updated_at: '' },
   
-  // 2. وجبات دجاج
-  { id: 'kitchen-6', category_id: 'chicken-meals', name: 'اسبانيش تشكن رول', description: '', price: 1430, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
+  // 2. وجبات دجاج (IDs: 7-15)
+  { id: 'kitchen-7', category_id: 'chicken-meals', name: 'اسبانيش تشكن رول', description: '', price: 1430, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
   { id: 'kitchen-8', category_id: 'chicken-meals', name: 'تشكن كوردون', description: '', price: 1480, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
   { id: 'kitchen-9', category_id: 'chicken-meals', name: 'تشكن مارسالا', description: '', price: 1400, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
   { id: 'kitchen-10', category_id: 'chicken-meals', name: 'تشكن نابولي', description: '', price: 1520, image_url: null, display_order: 5, available: true, created_at: '', updated_at: '' },
@@ -57,7 +52,7 @@ export const MENU_ITEMS: MenuItem[] = [
   { id: 'kitchen-13', category_id: 'chicken-meals', name: 'فيوجن تشكن كاجو', description: '', price: 1450, image_url: null, display_order: 8, available: true, created_at: '', updated_at: '' },
   { id: 'kitchen-14', category_id: 'chicken-meals', name: 'كريمي تشكن موزريلا وبرميزان', description: '', price: 1460, image_url: null, display_order: 9, available: true, created_at: '', updated_at: '' },
   
-  // 3. وجبات اللحمة
+  // 3. وجبات اللحمة (IDs: 15-22)
   { id: 'kitchen-15', category_id: 'meat-meals', name: 'انتركوت ستيك', description: '', price: 2140, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
   { id: 'kitchen-16', category_id: 'meat-meals', name: 'بيف استراغنوف', description: '', price: 1980, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
   { id: 'kitchen-17', category_id: 'meat-meals', name: 'ستيك زعفران', description: '', price: 2230, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
@@ -66,74 +61,75 @@ export const MENU_ITEMS: MenuItem[] = [
   { id: 'kitchen-20', category_id: 'meat-meals', name: 'فيليه ماسترد', description: '', price: 2060, image_url: null, display_order: 6, available: true, created_at: '', updated_at: '' },
   { id: 'kitchen-21', category_id: 'meat-meals', name: 'فيليه مشروم', description: '', price: 2040, image_url: null, display_order: 7, available: true, created_at: '', updated_at: '' },
   
-  // 4. وجبات اطفال
+  // 4. وجبات اطفال (IDs: 22-23)
   { id: 'kitchen-22', category_id: 'kids-meals', name: 'تشكن بوب كورن', description: '', price: 1260, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
   { id: 'kitchen-23', category_id: 'kids-meals', name: 'كريسبي صلصة شيدر', description: '', price: 1190, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
   
-  // 5. وجبات بحرية
-  { id: 'kitchen-25', category_id: 'seafood-meals', name: 'فيش آند شيبس', description: '', price: 1380, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-26', category_id: 'seafood-meals', name: 'هامور مشوي كريم ليمون واعشاب', description: '', price: 1420, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
+  // 5. وجبات بحرية (IDs: 24-25)
+  { id: 'kitchen-24', category_id: 'seafood-meals', name: 'فيش آند شيبس', description: '', price: 1380, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-25', category_id: 'seafood-meals', name: 'هامور مشوي كريم ليمون واعشاب', description: '', price: 1420, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
   
-  // 6. وجبات دايت
-  { id: 'kitchen-27', category_id: 'diet-meals', name: 'سكالوب حلومي', description: 'دجاج - خضار - بطاطا مشوية', price: 1100, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-28', category_id: 'diet-meals', name: 'دجاج الزبادي والاعشاب', description: 'دجاج - صلصة لبن و أعشاب - أفوكادو - خضار', price: 1280, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-29', category_id: 'diet-meals', name: 'ستيك الجرجير والبلسمك', description: 'ستيك - جرجير - فطر - صلصة بلسميك', price: 1930, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-30', category_id: 'diet-meals', name: 'شيش طاووق', description: 'دجاج - أرز - خضار - صويا', price: 1190, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-31', category_id: 'diet-meals', name: 'فيليه سمك الأعشاب و الكينوا', description: 'هامور - كينوا - خضار - جبنة حلوم', price: 1360, image_url: null, display_order: 5, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-32', category_id: 'diet-meals', name: 'كريسبي', description: 'فتايل دجاج كريسبي - خضار - بطاطا مشوية', price: 1070, image_url: null, display_order: 6, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-33', category_id: 'diet-meals', name: 'سكرامبل حبش و افوكادو', description: 'بيض - توست أسمر - خضار مشوية - حبش - افوكادو - جبنة بيضاء', price: 570, image_url: null, display_order: 7, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-34', category_id: 'diet-meals', name: 'أفوكادو تشيز توست', description: 'توست أسمر - أفوكادو - جبنة بيضاء', price: 860, image_url: null, display_order: 8, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-35', category_id: 'diet-meals', name: 'شعيرية مع دجاج', description: 'شعيرية , دجاج مشوي , توست أسمر', price: 330, image_url: null, display_order: 9, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-36', category_id: 'diet-meals', name: 'جرجير مع شوندر', description: 'جرجير - شوندر - جزر - فطر - رمان', price: 770, image_url: null, display_order: 10, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-37', category_id: 'diet-meals', name: 'كينوا تبولة', description: 'بقدونس - بندورة - بصل -نعنع اخضر - كينوا - ليمون - زيت الزيتون', price: 790, image_url: null, display_order: 11, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-38', category_id: 'diet-meals', name: 'بانزيلا إيطالية', description: 'بندورة كرزية - الخيار - جرجير - خس لاروسو - فطر - بندورة مجففة - جبنة مشوية', price: 950, image_url: null, display_order: 12, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-39', category_id: 'diet-meals', name: 'رايس تشكن بروسكيتا', description: 'توست أرز - بندورة - حبق - دجاج', price: 780, image_url: null, display_order: 13, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-40', category_id: 'diet-meals', name: 'بينه يوغريت', description: 'صلصة اللبن - بيستو -لوز - كاجو', price: 860, image_url: null, display_order: 14, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-41', category_id: 'diet-meals', name: 'ترياكي تشكن', description: 'فتايل دجاج - صلصة ترياكي - أرز سوشي', price: 1350, image_url: null, display_order: 15, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-42', category_id: 'diet-meals', name: 'تونا', description: 'تونا - خضار- خبز حبوب', price: 990, image_url: null, display_order: 16, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-43', category_id: 'diet-meals', name: 'شرمب كونغ باو', description: 'شرمب - بيبي كورن - فستق - زيت السمسم - أرز السوشي', price: 2250, image_url: null, display_order: 17, available: true, created_at: '', updated_at: '' },
+  // 6. وجبات دايت (IDs: 26-42)
+  { id: 'kitchen-26', category_id: 'diet-meals', name: 'سكالوب حلومي', description: 'دجاج - خضار - بطاطا مشوية', price: 1100, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-27', category_id: 'diet-meals', name: 'دجاج الزبادي والاعشاب', description: 'دجاج - صلصة لبن و أعشاب - أفوكادو - خضار', price: 1280, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-28', category_id: 'diet-meals', name: 'ستيك الجرجير والبلسمك', description: 'ستيك - جرجير - فطر - صلصة بلسميك', price: 1930, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-29', category_id: 'diet-meals', name: 'شيش طاووق', description: 'دجاج - أرز - خضار - صويا', price: 1190, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-30', category_id: 'diet-meals', name: 'فيليه سمك الأعشاب و الكينوا', description: 'هامور - كينوا - خضار - جبنة حلوم', price: 1360, image_url: null, display_order: 5, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-31', category_id: 'diet-meals', name: 'كريسبي', description: 'فتايل دجاج كريسبي - خضار - بطاطا مشوية', price: 1070, image_url: null, display_order: 6, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-32', category_id: 'diet-meals', name: 'سكرامبل حبش و افوكادو', description: 'بيض - توست أسمر - خضار مشوية - حبش - افوكادو - جبنة بيضاء', price: 570, image_url: null, display_order: 7, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-33', category_id: 'diet-meals', name: 'أفوكادو تشيز توست', description: 'توست أسمر - أفوكادو - جبنة بيضاء', price: 860, image_url: null, display_order: 8, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-34', category_id: 'diet-meals', name: 'شعيرية مع دجاج', description: 'شعيرية , دجاج مشوي , توست أسمر', price: 330, image_url: null, display_order: 9, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-35', category_id: 'diet-meals', name: 'جرجير مع شوندر', description: 'جرجير - شوندر - جزر - فطر - رمان', price: 770, image_url: null, display_order: 10, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-36', category_id: 'diet-meals', name: 'كينوا تبولة', description: 'بقدونس - بندورة - بصل -نعنع اخضر - كينوا - ليمون - زيت الزيتون', price: 790, image_url: null, display_order: 11, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-37', category_id: 'diet-meals', name: 'بانزيلا إيطالية', description: 'بندورة كرزية - الخيار - جرجير - خس لاروسو - فطر - بندورة مجففة - جبنة مشوية', price: 950, image_url: null, display_order: 12, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-38', category_id: 'diet-meals', name: 'رايس تشكن بروسكيتا', description: 'توست أرز - بندورة - حبق - دجاج', price: 780, image_url: null, display_order: 13, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-39', category_id: 'diet-meals', name: 'بينه يوغريت', description: 'صلصة اللبن - بيستو -لوز - كاجو', price: 860, image_url: null, display_order: 14, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-40', category_id: 'diet-meals', name: 'ترياكي تشكن', description: 'فتايل دجاج - صلصة ترياكي - أرز سوشي', price: 1350, image_url: null, display_order: 15, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-41', category_id: 'diet-meals', name: 'تونا', description: 'تونا - خضار- خبز حبوب', price: 990, image_url: null, display_order: 16, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-42', category_id: 'diet-meals', name: 'شرمب كونغ باو', description: 'شرمب - بيبي كورن - فستق - زيت السمسم - أرز السوشي', price: 2250, image_url: null, display_order: 17, available: true, created_at: '', updated_at: '' },
 
-  // 7. السندويش
-  { id: 'kitchen-34', category_id: 'sandwiches', name: 'شاورما دجاج', description: '', price: 780, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-35', category_id: 'sandwiches', name: 'شاورما لحمة', description: '', price: 1070, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-36', category_id: 'sandwiches', name: 'فاهيتا رابس تشكن', description: '', price: 1140, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-37', category_id: 'sandwiches', name: 'فيلادلفيا ستيك ساندويش', description: '', price: 1340, image_url: null, display_order: 5, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-38', category_id: 'sandwiches', name: 'كريسبي تشكن ساندويش', description: '', price: 1030, image_url: null, display_order: 6, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-39', category_id: 'sandwiches', name: 'كلاسيك تشيدر برغر', description: '', price: 1200, image_url: null, display_order: 7, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-40', category_id: 'sandwiches', name: 'مشروم برغر باربكيو', description: '', price: 1280, image_url: null, display_order: 8, available: true, created_at: '', updated_at: '' },
+  // 7. السندويش (IDs: 43-49)
+  { id: 'kitchen-43', category_id: 'sandwiches', name: 'شاورما دجاج', description: '', price: 780, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-44', category_id: 'sandwiches', name: 'شاورما لحمة', description: '', price: 1070, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-45', category_id: 'sandwiches', name: 'فاهيتا رابس تشكن', description: '', price: 1140, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-46', category_id: 'sandwiches', name: 'فيلادلفيا ستيك ساندويش', description: '', price: 1340, image_url: null, display_order: 5, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-47', category_id: 'sandwiches', name: 'كريسبي تشكن ساندويش', description: '', price: 1030, image_url: null, display_order: 6, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-48', category_id: 'sandwiches', name: 'كلاسيك تشيدر برغر', description: '', price: 1200, image_url: null, display_order: 7, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-49', category_id: 'sandwiches', name: 'مشروم برغر باربكيو', description: '', price: 1280, image_url: null, display_order: 8, available: true, created_at: '', updated_at: '' },
   
-  // 8. الشوربات
-  { id: 'kitchen-42', category_id: 'soups', name: 'شوربة بصل', description: '', price: 460, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-43', category_id: 'soups', name: 'عدس مع شوفان', description: '', price: 380, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-44', category_id: 'soups', name: 'كريمة ميكس', description: '', price: 540, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
+  // 8. الشوربات (IDs: 50-52)
+  { id: 'kitchen-50', category_id: 'soups', name: 'شوربة بصل', description: '', price: 460, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-51', category_id: 'soups', name: 'عدس مع شوفان', description: '', price: 380, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-52', category_id: 'soups', name: 'كريمة ميكس', description: '', price: 540, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
   
-  // 9. السلطات
-  { id: 'kitchen-46', category_id: 'cold-salads', name: 'تاي بيف نودلز', description: '', price: 1330, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-49', category_id: 'cold-salads', name: 'سلطة بالميتو', description: '', price: 1080, image_url: null, display_order: 5, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-50', category_id: 'cold-salads', name: 'سلطة تورنادو', description: '', price: 980, image_url: null, display_order: 6, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-51', category_id: 'cold-salads', name: 'سيزر دجاج', description: '', price: 920, image_url: null, display_order: 7, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-52', category_id: 'cold-salads', name: 'سيزر شرمب', description: '', price: 1180, image_url: null, display_order: 8, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-53', category_id: 'cold-salads', name: 'قلوب خس ركفورد', description: '', price: 1080, image_url: null, display_order: 9, available: true, created_at: '', updated_at: '' },
+  // 9. السلطات (IDs: 53-58)
+  { id: 'kitchen-53', category_id: 'cold-salads', name: 'تاي بيف نودلز', description: '', price: 1330, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-54', category_id: 'cold-salads', name: 'سلطة بالميتو', description: '', price: 1080, image_url: null, display_order: 5, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-55', category_id: 'cold-salads', name: 'سلطة تورنادو', description: '', price: 980, image_url: null, display_order: 6, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-56', category_id: 'cold-salads', name: 'سيزر دجاج', description: '', price: 920, image_url: null, display_order: 7, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-57', category_id: 'cold-salads', name: 'سيزر شرمب', description: '', price: 1180, image_url: null, display_order: 8, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-58', category_id: 'cold-salads', name: 'قلوب خس ركفورد', description: '', price: 1080, image_url: null, display_order: 9, available: true, created_at: '', updated_at: '' },
   
-  // 10. المقبالت الساخنة
-  { id: 'kitchen-54', category_id: 'hot-appetizers', name: 'بطاطا فورتشيز', description: '', price: 840, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-55', category_id: 'hot-appetizers', name: 'بطاطا مقلية', description: '', price: 490, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-56', category_id: 'hot-appetizers', name: 'بوريتوس تشكن', description: '', price: 1040, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-57', category_id: 'hot-appetizers', name: 'بوفالو وينينغ', description: '', price: 860, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-58', category_id: 'hot-appetizers', name: 'تيمبورا هوت دوغ', description: '', price: 890, image_url: null, display_order: 5, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-59', category_id: 'hot-appetizers', name: 'داينميت شرمب', description: '', price: 1350, image_url: null, display_order: 6, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-62', category_id: 'hot-appetizers', name: 'غارليك بريد', description: '', price: 640, image_url: null, display_order: 9, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-63', category_id: 'hot-appetizers', name: 'كريسبي باربكيو', description: '', price: 780, image_url: null, display_order: 10, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-64', category_id: 'hot-appetizers', name: 'موزريلا ستيكز', description: '', price: 750, image_url: null, display_order: 11, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-65', category_id: 'hot-appetizers', name: 'ناتشوز', description: '', price: 940, image_url: null, display_order: 12, available: true, created_at: '', updated_at: '' },
+  // 10. المقبلات الساخنة (IDs: 59-70)
+  { id: 'kitchen-59', category_id: 'hot-appetizers', name: 'بطاطا فورتشيز', description: '', price: 840, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-60', category_id: 'hot-appetizers', name: 'بطاطا مقلية', description: '', price: 490, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-61', category_id: 'hot-appetizers', name: 'بوريتوس تشكن', description: '', price: 1040, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-62', category_id: 'hot-appetizers', name: 'بوفالو وينينغ', description: '', price: 860, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-63', category_id: 'hot-appetizers', name: 'تيمبورا هوت دوغ', description: '', price: 890, image_url: null, display_order: 5, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-64', category_id: 'hot-appetizers', name: 'داينميت شرمب', description: '', price: 1350, image_url: null, display_order: 6, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-65', category_id: 'hot-appetizers', name: 'غارليك بريد', description: '', price: 640, image_url: null, display_order: 9, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-66', category_id: 'hot-appetizers', name: 'كريسبي باربكيو', description: '', price: 780, image_url: null, display_order: 10, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-67', category_id: 'hot-appetizers', name: 'موزريلا ستيكز', description: '', price: 750, image_url: null, display_order: 11, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-68', category_id: 'hot-appetizers', name: 'ناتشوز', description: '', price: 940, image_url: null, display_order: 12, available: true, created_at: '', updated_at: '' },
   
-  // 11. الباستا
-  { id: 'kitchen-66', category_id: 'pasta', name: 'اسباغيتي مارينارا شرمب', description: '', price: 1170, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-68', category_id: 'pasta', name: 'تشكن فيتوتشيني الافونجي', description: '', price: 1060, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-69', category_id: 'pasta', name: 'تورنادو باستا', description: '', price: 1020, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
+  // 11. الباستا (IDs: 69-71)
+  { id: 'kitchen-69', category_id: 'pasta', name: 'اسباغيتي مارينارا شرمب', description: '', price: 1170, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-70', category_id: 'pasta', name: 'تشكن فيتوتشيني الافونجي', description: '', price: 1060, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-71', category_id: 'pasta', name: 'تورنادو باستا', description: '', price: 1020, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
   
+  // 12. فطور غربي (IDs: 72-78)
   { 
-    id: 'kitchen-74', 
+    id: 'kitchen-72', 
     category_id: 'western-breakfast', 
     name: 'كربونار أومليت كروسان', 
     description: 'كروسان - بيض - كريمة فريش - بيكن - جبنة بارميزان', 
@@ -145,7 +141,7 @@ export const MENU_ITEMS: MenuItem[] = [
     updated_at: '' 
   },
   { 
-    id: 'kitchen-75', 
+    id: 'kitchen-73', 
     category_id: 'western-breakfast', 
     name: 'كالزويل', 
     description: 'حبش - هوت دوغ - خضار - جبنة موزريلا', 
@@ -157,7 +153,7 @@ export const MENU_ITEMS: MenuItem[] = [
     updated_at: '' 
   },
   { 
-    id: 'kitchen-76', 
+    id: 'kitchen-74', 
     category_id: 'western-breakfast', 
     name: 'كروسان زعتر و خضار', 
     description: 'كروسان - زعتر أخضر - شوندر - خضار', 
@@ -169,7 +165,7 @@ export const MENU_ITEMS: MenuItem[] = [
     updated_at: '' 
   },
   { 
-    id: 'kitchen-72', 
+    id: 'kitchen-75', 
     category_id: 'western-breakfast', 
     name: 'بيض عيون مع البيكن', 
     description: 'بيض - توست أبيض - بيكن', 
@@ -181,7 +177,7 @@ export const MENU_ITEMS: MenuItem[] = [
     updated_at: '' 
   },
   { 
-    id: 'kitchen-77', 
+    id: 'kitchen-76', 
     category_id: 'western-breakfast', 
     name: 'اوميلت خضار و موزريلا', 
     description: 'بيض - خضار - جبنة موزريلا - خس - بندورة كرزية', 
@@ -193,7 +189,7 @@ export const MENU_ITEMS: MenuItem[] = [
     updated_at: '' 
   },
   { 
-    id: 'kitchen-78', 
+    id: 'kitchen-77', 
     category_id: 'western-breakfast', 
     name: 'كروسان ميكس تشيز و خضار', 
     description: 'كروسان - جبنة موزريلا - جبنة بيضاء - شوندر - خضار', 
@@ -205,7 +201,7 @@ export const MENU_ITEMS: MenuItem[] = [
     updated_at: '' 
   },
   { 
-    id: 'kitchen-140', 
+    id: 'kitchen-78', 
     category_id: 'western-breakfast', 
     name: 'هوت دوغ مقلي', 
     description: 'الهوت دوغ - باغيت - خردل ديجون - كتشب', 
@@ -217,70 +213,61 @@ export const MENU_ITEMS: MenuItem[] = [
     updated_at: '' 
   },
   
-  // 13. فطور شرقي
+  // 13. فطور شرقي (IDs: 79-89)
   { id: 'kitchen-79', category_id: 'eastern-breakfast', name: 'جنبة حلوم مشوية', description: '', price: 170, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-89', category_id: 'eastern-breakfast', name: 'مكدوس', description: '', price: 280, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-80', category_id: 'eastern-breakfast', name: 'مكدوس', description: '', price: 280, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
   { id: 'kitchen-81', category_id: 'eastern-breakfast', name: 'سوري خضرة', description: '', price: 220, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-80', category_id: 'eastern-breakfast', name: 'زينون و خضار', description: '', price: 170, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-90', category_id: 'eastern-breakfast', name: 'فتة حمص', description: '', price: 660, image_url: null, display_order: 5, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-85', category_id: 'eastern-breakfast', name: 'زيندة', description: '', price: 210, image_url: null, display_order: 6, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-86', category_id: 'eastern-breakfast', name: 'فول', description: '', price: 400, image_url: null, display_order: 7, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-84', category_id: 'eastern-breakfast', name: 'حلوى', description: '', price: 190, image_url: null, display_order: 8, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-88', category_id: 'eastern-breakfast', name: 'مرى', description: '', price: 140, image_url: null, display_order: 9, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-200', category_id: 'eastern-breakfast', name: 'بيض مقلي', description: '', price: 280, image_url: null, display_order: 10, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-91', category_id: 'eastern-breakfast', name: 'مفركة فطر', description: '', price: 700, image_url: null, display_order: 11, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-82', category_id: 'eastern-breakfast', name: 'زينون و خضار', description: '', price: 170, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-83', category_id: 'eastern-breakfast', name: 'فتة حمص', description: '', price: 660, image_url: null, display_order: 5, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-84', category_id: 'eastern-breakfast', name: 'زيندة', description: '', price: 210, image_url: null, display_order: 6, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-85', category_id: 'eastern-breakfast', name: 'فول', description: '', price: 400, image_url: null, display_order: 7, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-86', category_id: 'eastern-breakfast', name: 'حلوى', description: '', price: 190, image_url: null, display_order: 8, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-87', category_id: 'eastern-breakfast', name: 'مرى', description: '', price: 140, image_url: null, display_order: 9, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-88', category_id: 'eastern-breakfast', name: 'بيض مقلي', description: '', price: 280, image_url: null, display_order: 10, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-89', category_id: 'eastern-breakfast', name: 'مفركة فطر', description: '', price: 700, image_url: null, display_order: 11, available: true, created_at: '', updated_at: '' },
   
-  // 14. سيت
-  { id: 'kitchen-82', category_id: 'set-meals', name: 'سيت فطور 2', description: '', price: 0, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-83', category_id: 'set-meals', name: 'صحن اومليت', description: '', price: 280, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-70', category_id: 'set-meals', name: 'افوكادو تشيز توست', description: '', price: 860, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-71', category_id: 'set-meals', name: 'اومليت خضار مع موزريلا', description: '', price: 530, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-73', category_id: 'set-meals', name: 'سكرامبل مع الحبش والافوكادو', description: '', price: 570, image_url: null, display_order: 5, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-77', category_id: 'set-meals', name: 'كروسان ميكس تشيز مع خضار', description: '', price: 530, image_url: null, display_order: 6, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-78', category_id: 'set-meals', name: 'هوت دوغ مقلي', description: '', price: 580, image_url: null, display_order: 7, available: true, created_at: '', updated_at: '' },
-  
-  // 15. مطبخ اكسترا
-  { id: 'kitchen-93', category_id: 'extra-kitchen', name: 'اكسترا جبنة بارميزان', description: '', price: 160, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-94', category_id: 'extra-kitchen', name: 'اكسترا جبنة تشيدر', description: '', price: 110, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-95', category_id: 'extra-kitchen', name: 'اكسترا جبنة تشيدر سلايس', description: '', price: 60, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-96', category_id: 'extra-kitchen', name: 'اكسترا جبنة ركفورد', description: '', price: 150, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-97', category_id: 'extra-kitchen', name: 'اكسترا جبنة موزريلا', description: '', price: 70, image_url: null, display_order: 5, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-98', category_id: 'extra-kitchen', name: 'اكسترا خبز', description: '', price: 0, image_url: null, display_order: 6, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-99', category_id: 'extra-kitchen', name: 'اكسترا خردل', description: '', price: 120, image_url: null, display_order: 7, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-100', category_id: 'extra-kitchen', name: 'اكسترا سيراشا', description: '', price: 120, image_url: null, display_order: 8, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-101', category_id: 'extra-kitchen', name: 'اكسترا كتشب', description: '', price: 40, image_url: null, display_order: 9, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-102', category_id: 'extra-kitchen', name: 'اكسترا مايونيز', description: '', price: 70, image_url: null, display_order: 10, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-103', category_id: 'extra-kitchen', name: 'اكسترا مايونيز ثوم', description: '', price: 60, image_url: null, display_order: 11, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-104', category_id: 'extra-kitchen', name: 'خبزة باغيت ابيض', description: '', price: 60, image_url: null, display_order: 12, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-105', category_id: 'extra-kitchen', name: 'خبزة باغيت حبوب اسمر', description: '', price: 60, image_url: null, display_order: 13, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-106', category_id: 'extra-kitchen', name: 'صلصة آيولي مايونيز مكسيكان', description: '', price: 90, image_url: null, display_order: 14, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-107', category_id: 'extra-kitchen', name: 'صلصة افوكادو بارد', description: '', price: 120, image_url: null, display_order: 15, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-108', category_id: 'extra-kitchen', name: 'صلصة انتركوت بارد', description: '', price: 90, image_url: null, display_order: 16, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-109', category_id: 'extra-kitchen', name: 'صلصة انتركوت ساخن', description: '', price: 140, image_url: null, display_order: 17, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-110', category_id: 'extra-kitchen', name: 'صلصة بدوة بارد', description: '', price: 60, image_url: null, display_order: 18, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-111', category_id: 'extra-kitchen', name: 'صلصة بلسميك بارد', description: '', price: 120, image_url: null, display_order: 19, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-112', category_id: 'extra-kitchen', name: 'صلصة بيبر', description: '', price: 120, image_url: null, display_order: 20, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-113', category_id: 'extra-kitchen', name: 'صلصة تاي بيف بارد', description: '', price: 160, image_url: null, display_order: 21, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-114', category_id: 'extra-kitchen', name: 'صلصة ترياكي', description: '', price: 150, image_url: null, display_order: 22, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-115', category_id: 'extra-kitchen', name: 'صلصة تشيدر', description: '', price: 180, image_url: null, display_order: 23, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-116', category_id: 'extra-kitchen', name: 'صلصة تورنادو بارد', description: '', price: 100, image_url: null, display_order: 24, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-117', category_id: 'extra-kitchen', name: 'صلصة ركفورد', description: '', price: 140, image_url: null, display_order: 25, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-118', category_id: 'extra-kitchen', name: 'صلصة ركفورد بارد', description: '', price: 120, image_url: null, display_order: 26, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-119', category_id: 'extra-kitchen', name: 'صلصة زعفران', description: '', price: 120, image_url: null, display_order: 27, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-120', category_id: 'extra-kitchen', name: 'صلصة سيزر', description: '', price: 120, image_url: null, display_order: 28, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-121', category_id: 'extra-kitchen', name: 'صلصة غرين بارد', description: '', price: 80, image_url: null, display_order: 29, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-122', category_id: 'extra-kitchen', name: 'صلصة كاجو', description: '', price: 150, image_url: null, display_order: 30, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-123', category_id: 'extra-kitchen', name: 'صلصة كريما', description: '', price: 120, image_url: null, display_order: 31, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-124', category_id: 'extra-kitchen', name: 'صلصة كوردون', description: '', price: 140, image_url: null, display_order: 32, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-125', category_id: 'extra-kitchen', name: 'صلصة ليمون واعشاب', description: '', price: 140, image_url: null, display_order: 33, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-126', category_id: 'extra-kitchen', name: 'صلصة مارسالا', description: '', price: 150, image_url: null, display_order: 34, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-127', category_id: 'extra-kitchen', name: 'صلصة ماسترد', description: '', price: 120, image_url: null, display_order: 35, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-128', category_id: 'extra-kitchen', name: 'صلصة مايونيز تشيلي بارد', description: '', price: 70, image_url: null, display_order: 36, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-129', category_id: 'extra-kitchen', name: 'صلصة مشروم', description: '', price: 120, image_url: null, display_order: 37, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-130', category_id: 'extra-kitchen', name: 'صلصة مطفاية', description: '', price: 120, image_url: null, display_order: 38, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-131', category_id: 'extra-kitchen', name: 'صلصة نابولي', description: '', price: 150, image_url: null, display_order: 39, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-132', category_id: 'extra-kitchen', name: 'صلصة هني ماسترد بارد', description: '', price: 100, image_url: null, display_order: 40, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-133', category_id: 'extra-kitchen', name: 'قطعة برغر', description: '', price: 650, image_url: null, display_order: 41, available: true, created_at: '', updated_at: '' },
+  // 14. مطبخ اكسترا (IDs: 90-131)
+  { id: 'kitchen-90', category_id: 'extra-kitchen', name: 'اكسترا جبنة بارميزان', description: '', price: 160, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-91', category_id: 'extra-kitchen', name: 'اكسترا جبنة تشيدر', description: '', price: 110, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-92', category_id: 'extra-kitchen', name: 'اكسترا جبنة تشيدر سلايس', description: '', price: 60, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-93', category_id: 'extra-kitchen', name: 'اكسترا جبنة ركفورد', description: '', price: 150, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-94', category_id: 'extra-kitchen', name: 'اكسترا جبنة موزريلا', description: '', price: 70, image_url: null, display_order: 5, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-95', category_id: 'extra-kitchen', name: 'اكسترا خبز', description: '', price: 0, image_url: null, display_order: 6, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-96', category_id: 'extra-kitchen', name: 'اكسترا خردل', description: '', price: 120, image_url: null, display_order: 7, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-97', category_id: 'extra-kitchen', name: 'اكسترا سيراشا', description: '', price: 120, image_url: null, display_order: 8, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-98', category_id: 'extra-kitchen', name: 'اكسترا كتشب', description: '', price: 40, image_url: null, display_order: 9, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-99', category_id: 'extra-kitchen', name: 'اكسترا مايونيز', description: '', price: 70, image_url: null, display_order: 10, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-100', category_id: 'extra-kitchen', name: 'اكسترا مايونيز ثوم', description: '', price: 60, image_url: null, display_order: 11, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-101', category_id: 'extra-kitchen', name: 'خبزة باغيت ابيض', description: '', price: 60, image_url: null, display_order: 12, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-102', category_id: 'extra-kitchen', name: 'خبزة باغيت حبوب اسمر', description: '', price: 60, image_url: null, display_order: 13, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-103', category_id: 'extra-kitchen', name: 'صلصة آيولي مايونيز مكسيكان', description: '', price: 90, image_url: null, display_order: 14, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-104', category_id: 'extra-kitchen', name: 'صلصة افوكادو بارد', description: '', price: 120, image_url: null, display_order: 15, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-105', category_id: 'extra-kitchen', name: 'صلصة انتركوت بارد', description: '', price: 90, image_url: null, display_order: 16, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-106', category_id: 'extra-kitchen', name: 'صلصة انتركوت ساخن', description: '', price: 140, image_url: null, display_order: 17, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-107', category_id: 'extra-kitchen', name: 'صلصة بدوة بارد', description: '', price: 60, image_url: null, display_order: 18, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-108', category_id: 'extra-kitchen', name: 'صلصة بلسميك بارد', description: '', price: 120, image_url: null, display_order: 19, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-109', category_id: 'extra-kitchen', name: 'صلصة بيبر', description: '', price: 120, image_url: null, display_order: 20, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-110', category_id: 'extra-kitchen', name: 'صلصة تاي بيف بارد', description: '', price: 160, image_url: null, display_order: 21, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-111', category_id: 'extra-kitchen', name: 'صلصة ترياكي', description: '', price: 150, image_url: null, display_order: 22, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-112', category_id: 'extra-kitchen', name: 'صلصة تشيدر', description: '', price: 180, image_url: null, display_order: 23, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-113', category_id: 'extra-kitchen', name: 'صلصة تورنادو بارد', description: '', price: 100, image_url: null, display_order: 24, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-114', category_id: 'extra-kitchen', name: 'صلصة ركفورد', description: '', price: 140, image_url: null, display_order: 25, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-115', category_id: 'extra-kitchen', name: 'صلصة ركفورد بارد', description: '', price: 120, image_url: null, display_order: 26, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-116', category_id: 'extra-kitchen', name: 'صلصة زعفران', description: '', price: 120, image_url: null, display_order: 27, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-117', category_id: 'extra-kitchen', name: 'صلصة سيزر', description: '', price: 120, image_url: null, display_order: 28, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-118', category_id: 'extra-kitchen', name: 'صلصة غرين بارد', description: '', price: 80, image_url: null, display_order: 29, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-119', category_id: 'extra-kitchen', name: 'صلصة كاجو', description: '', price: 150, image_url: null, display_order: 30, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-120', category_id: 'extra-kitchen', name: 'صلصة كريما', description: '', price: 120, image_url: null, display_order: 31, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-121', category_id: 'extra-kitchen', name: 'صلصة كوردون', description: '', price: 140, image_url: null, display_order: 32, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-122', category_id: 'extra-kitchen', name: 'صلصة ليمون واعشاب', description: '', price: 140, image_url: null, display_order: 33, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-123', category_id: 'extra-kitchen', name: 'صلصة مارسالا', description: '', price: 150, image_url: null, display_order: 34, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-124', category_id: 'extra-kitchen', name: 'صلصة ماسترد', description: '', price: 120, image_url: null, display_order: 35, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-125', category_id: 'extra-kitchen', name: 'صلصة مايونيز تشيلي بارد', description: '', price: 70, image_url: null, display_order: 36, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-126', category_id: 'extra-kitchen', name: 'صلصة مشروم', description: '', price: 120, image_url: null, display_order: 37, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-127', category_id: 'extra-kitchen', name: 'صلصة مطفاية', description: '', price: 120, image_url: null, display_order: 38, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-128', category_id: 'extra-kitchen', name: 'صلصة نابولي', description: '', price: 150, image_url: null, display_order: 39, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-129', category_id: 'extra-kitchen', name: 'صلصة هني ماسترد بارد', description: '', price: 100, image_url: null, display_order: 40, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-130', category_id: 'extra-kitchen', name: 'قطعة برغر', description: '', price: 650, image_url: null, display_order: 41, available: true, created_at: '', updated_at: '' },
   
   // ===== منيو بار =====
   

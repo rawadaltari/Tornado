@@ -80,7 +80,7 @@ export default function RestaurantFooter() {
                   href="tel:+963112345678"
                   className="text-[#E9E2DE] hover:text-[#C3A05C] transition-colors duration-300 text-sm lg:text-base font-medium"
                 >
-                  +963 11 234 5678
+                  +96389977585 - 0116613048
                 </a>
                 <p className="text-[#E9E2DE]/70 text-xs">
                   {t("customerService")}

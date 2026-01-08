@@ -212,7 +212,7 @@ export default function TornadoMenu() {
       <header className="sticky top-0 z-40 bg-white shadow-sm">
         <div className="max-w-5xl mx-auto px-4 py-4 text-center">
           <TextType
-            text={[" ", "Tornado Restaurant and Café"]}
+            text={[" ", "TORNADO DUBAI  Café and Restaurant "]}
             typingSpeed={75}
             pauseDuration={1500}
             showCursor
@@ -479,7 +479,7 @@ export default function TornadoMenu() {
             )}
             {t('back')}
           </button>
-          <h3 className="font-bold text-lg">
+          <h3 className="font-bold text-lg ">
             {getTranslatedCategoryName(selectedCategory.id)}
           </h3>
           <span />

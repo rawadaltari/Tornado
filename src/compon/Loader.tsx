@@ -1,96 +1,90 @@
-import { useEffect, useRef } from 'react';
-import logoImage from '/assets/Tornadologo1.png';
-import gsap from 'gsap';
+import { useEffect, useState } from 'react';
+import logoImage from '/assets/logo.jpg';
 
 interface LoaderProps {
   onLoadComplete: () => void;
-  slideDirection?: 'left' | 'right' | 'up' | 'down';
 }
 
-export function Loader({
-  onLoadComplete,
-  slideDirection = 'left',
-}: LoaderProps) {
-  const logoRef = useRef<HTMLDivElement>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
-
-  // تحديد اتجاه التزحلق
-  const getSlideValues = () => {
-    switch (slideDirection) {
-      case 'left':
-        return { x: '-100vw', rotation: -15 };
-      case 'right':
-        return { x: '100vw', rotation: 15 };
-      case 'up':
-        return { y: '-100vh', rotation: -10 };
-      case 'down':
-        return { y: '100vh', rotation: 10 };
-      default:
-        return { x: '-100vw', rotation: -15 };
-    }
-  };
+export function Loader({ onLoadComplete }: LoaderProps) {
+  const [progress, setProgress] = useState(0);
+  const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {
-    
-    const originalOverflow = document.body.style.overflow;
-    const originalHeight = document.body.style.height;
-
     document.body.style.overflow = 'hidden';
-    document.body.style.height = '100vh';
 
-    if (!logoRef.current || !containerRef.current) return;
+    let currentProgress = 0;
+    const interval = setInterval(() => {
+      currentProgress += 2;
+      if (currentProgress > 100) {
+        currentProgress = 100;
+        clearInterval(interval);
+        
+        // اكتمال التحميل
+        setTimeout(() => {
+          setIsVisible(false);
+          setTimeout(() => {
+            onLoadComplete();
+          }, 300);
+        }, 300);
+      }
+      setProgress(currentProgress);
+    }, 30);
 
-    const slideValues = getSlideValues();
-
-    const timeline = gsap.timeline({
-      onComplete: () => {
-        onLoadComplete();
-      },
-    });
-
-    // 1. تكبير مع توهج خفيف
-    timeline.to(logoRef.current, {
-      scale: 1.5,
-      duration: 2,
-      ease: 'power2.out',
-      boxShadow: '0 0 25px rgba(255, 255, 255, 0.1)',
-    });
-
-    // 2. تزحلق للخارج
-    timeline.to(logoRef.current, {
-      ...slideValues,
-      scale: 0.7,
-      opacity: 0,
-      duration: 1.2,
-      ease: 'power2.in',
-      boxShadow: '0 0 50px rgba(255, 255, 255, 0.3)',
-    });
-
-    // 3. إخفاء الحاوية
-    timeline.to(containerRef.current, {
-      opacity: 0,
-      duration: 0.3,
-    });
-
-    // ✅ cleanup مهم جدًا
     return () => {
-      timeline.kill();
-      document.body.style.overflow = originalOverflow || 'auto';
-      document.body.style.height = originalHeight || 'auto';
+      clearInterval(interval);
+      document.body.style.overflow = 'auto';
     };
-  }, [onLoadComplete, slideDirection]);
+  }, [onLoadComplete]);
+
+  if (!isVisible) return null;
 
   return (
-    <div
-      ref={containerRef}
-      className="fixed inset-0  flex items-center justify-center z-[9999]"
-    >
-      <div ref={logoRef} className="relative">
-        <img
-          src={logoImage}
-          alt="Restaurant Logo"
-          className="w-72 h-80 object-contain"
-        />
+    <div className="fixed inset-0 flex flex-col items-center justify-center z-50 bg-black transition-opacity duration-300">
+      {/* خلفية الصورة محسنة للجوال */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="relative w-full h-full">
+          <img
+            src={logoImage}
+            alt="Logo"
+            className="w-full h-full object-cover scale-105 opacity-95"
+            style={{
+              filter: 'brightness(0.95) contrast(1.1) saturate(1.1)',
+            }}
+          />
+          
+          {/* طبقات تدرج أخف */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-black/10 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/30" />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/20 via-transparent to-black/20" />
+          
+          {/* تأثير توهج أخف في المنتصف */}
+          <div className="absolute inset-0 bg-radial-gradient(circle at center, transparent 40%, rgba(0,0,0,0.2) 80%)" />
+        </div>
+      </div>
+
+      {/* طبقة شفافية أخف */}
+      <div className="absolute inset-0 bg-black/5" />
+
+      {/* النسبة المئوية في وسط الشاشة */}
+      <div className="relative z-10 text-center mb-6">
+        <div className="text-white text-5xl sm:text-6xl font-bold drop-shadow-lg">
+          {progress}%
+        </div>
+      </div>
+
+      {/* شريط التقدم في أسفل الشاشة */}
+      <div className="absolute bottom-8 sm:bottom-10 left-0 right-0 px-6">
+        <div className="w-full max-w-xs mx-auto">
+          <div className="h-1.5 bg-gray-800/80 rounded-full overflow-hidden backdrop-blur-sm shadow-inner">
+            <div 
+              className="h-full bg-gradient-to-r from-primary-light via-accent to-primary-dark rounded-full transition-all duration-200 relative"
+              style={{ width: `${progress}%` }}
+            >
+              {/* تأثير توهج خفيف للشريط */}
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -80,7 +80,7 @@ export function CategoryCard({
       role="button"
       tabIndex={0}
       className={`
-        relative bg-gradient-to-br from-[#f4ce62] to-[#f8e29e]
+        relative bg-[#c3a05c]
         rounded-3xl shadow-lg hover:shadow-xl
         transition-all duration-200
         pt-14 pb-5 px-3
