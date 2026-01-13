@@ -31,362 +31,362 @@
   },
   
   "menuItems": {
-    "kitchen-1": {
-      "name": "Mixed Manakish",
-      "description": "Za'atar - Mhammara with Mozzarella - White Cheese"
-    },
-    "kitchen-2": {
-      "name": "White Cheese and Vegetables",
-      "description": ""
-    },
-    "kitchen-3": {
-      "name": "Mhammara with Mozzarella",
-      "description": ""
-    },
-    "kitchen-4": {
-      "name": "Labneh and Mkdous",
-      "description": ""
-    },
-    "kitchen-5": {
-      "name": "Za'atar and Vegetables",
-      "description": ""
-    },
-    "kitchen-6": {
-      "name": "Labneh with Lebanese Sumac",
-      "description": ""
-    },
-    "kitchen-7": {
-      "name": "Spanish Chicken Roll",
-      "description": "Chicken - Spinach cream sauce - French fries"
-    },
-    "kitchen-8": {
-      "name": "Chicken Cordon Bleu",
-      "description": "Chicken - Mozzarella cheese - Cream and turkey sauce - French fries"
-    },
-    "kitchen-9": {
-      "name": "Chicken Marsala",
-      "description": "Chicken - Grape sauce - Mushrooms - Fettuccine"
-    },
-    "kitchen-10": {
-      "name": "Chicken Napoli",
-      "description": "Chicken - Pesto cream sauce - Fettuccine - Sautéed vegetables"
-    },
-    "kitchen-11": {
-      "name": "Grilled Lemon Herb Chicken",
-      "description": "Chicken - Lemon cream sauce - Rice - Sautéed vegetables"
-    },
-    "kitchen-12": {
-      "name": "Torch Pottery",
-      "description": "Chicken - Mushroom and lemon sauce"
-    },
-    "kitchen-13": {
-      "name": "Fusion Chicken Cashew",
-      "description": "Chicken - Cashew cream sauce - Rice"
-    },
-    "kitchen-14": {
-      "name": "Creamy Chicken Mozzarella and Parmesan",
-      "description": "Chicken - Mushrooms - Cheese - Cream sauce - French fries"
-    },
-    "kitchen-15": {
-      "name": "Entrecote Steak",
-      "description": "Steak - Entrecote sauce - French fries"
-    },
-    "kitchen-16": {
-      "name": "Beef Stroganoff",
-      "description": "Fillet - Vegetables - Beef broth sauce - Rice"
-    },
-    "kitchen-17": {
-      "name": "Saffron Steak",
-      "description": "Fillet - Saffron cream sauce - Sautéed vegetables - French fries"
-    },
-    "kitchen-18": {
-      "name": "Pepper Fillet",
-      "description": "Fillet - Poivre sauce - Sautéed vegetables - Potatoes"
-    },
-    "kitchen-19": {
-      "name": "Roquefort Fillet",
-      "description": "Fillet - Roquefort sauce - Sautéed vegetables - Potatoes"
-    },
-    "kitchen-20": {
-      "name": "Mustard Fillet",
-      "description": "Fillet - Mustard sauce - Sautéed vegetables - Potatoes"
-    },
-    "kitchen-21": {
-      "name": "Mushroom Fillet",
-      "description": "Fillet - Mushroom sauce - Sautéed vegetables - Potatoes"
-    },
-    "kitchen-22": {
-      "name": "Chicken Popcorn",
-      "description": "Chicken - Onion rings - French fries"
-    },
-    "kitchen-23": {
-      "name": "Crispy Cheddar Sauce",
-      "description": "Crispy chicken strips - Cheddar cream sauce - French fries"
-    },
-    "kitchen-24": {
-      "name": "Fish and Chips",
-      "description": "Grouper - Potato chips"
-    },
-    "kitchen-25": {
-      "name": "Grilled Grouper with Lemon Herb Cream",
-      "description": "Grouper - Lemon cream sauce - Rice"
-    },
-    "kitchen-26": {
-      "name": "Halloumi Scallop",
-      "description": "Chicken - Vegetables - Baked potatoes"
-    },
-    "kitchen-27": {
-      "name": "Yogurt Herb Chicken",
-      "description": "Chicken - Yogurt and herb sauce - Avocado - Vegetables"
-    },
-    "kitchen-28": {
-      "name": "Arugula and Balsamic Steak",
-      "description": "Steak - Arugula - Mushrooms - Balsamic sauce"
-    },
-    "kitchen-29": {
-      "name": "Chicken Shawarma",
-      "description": "Chicken - Rice - Vegetables - Soy"
-    },
-    "kitchen-30": {
-      "name": "Herbed Fish Fillet with Quinoa",
-      "description": "Grouper - Quinoa - Vegetables - Halloumi cheese"
-    },
-    "kitchen-31": {
-      "name": "Crispy",
-      "description": "Crispy chicken strips - Vegetables - Baked potatoes"
-    },
-    "kitchen-32": {
-      "name": "Scrambled Turkey and Avocado",
-      "description": "Eggs - Brown toast - Grilled vegetables - Turkey - Avocado - White cheese"
-    },
-    "kitchen-33": {
-      "name": "Avocado Cheese Toast",
-      "description": "Brown toast - Avocado - White cheese"
-    },
-    "kitchen-34": {
-      "name": "Noodles with Chicken",
-      "description": "Noodles, grilled chicken, brown toast"
-    },
-    "kitchen-35": {
-      "name": "Arugula with Beets",
-      "description": "Arugula - Beets - Carrots - Mushrooms - Pomegranate"
-    },
-    "kitchen-36": {
-      "name": "Quinoa Tabbouleh",
-      "description": "Parsley - Tomatoes - Onion - Fresh mint - Quinoa - Lemon - Olive oil"
-    },
-    "kitchen-37": {
-      "name": "Italian Panzanella",
-      "description": "Cherry tomatoes - Cucumber - Arugula - Lollo Rosso lettuce - Mushrooms - Sun-dried tomatoes - Grilled cheese"
-    },
-    "kitchen-38": {
-      "name": "Rice Chicken Bruschetta",
-      "description": "Rice toast - Tomatoes - Basil - Chicken"
-    },
-    "kitchen-39": {
-      "name": "Penne Yogurt",
-      "description": "Yogurt sauce - Pesto - Almonds - Cashews"
-    },
-    "kitchen-40": {
-      "name": "Teriyaki Chicken",
-      "description": "Chicken strips - Teriyaki sauce - Sushi rice"
-    },
-    "kitchen-41": {
-      "name": "Tuna",
-      "description": "Tuna - Vegetables - Whole grain bread"
-    },
-    "kitchen-42": {
-      "name": "Kung Pao Shrimp",
-      "description": "Shrimp - Baby corn - Peanuts - Sesame oil - Sushi rice"
-    },
-    "kitchen-43": {
-      "name": "Chicken Shawarma Sandwich",
-      "description": "Chicken - Arabic bread - French fries"
-    },
-    "kitchen-44": {
-      "name": "Beef Shawarma Sandwich",
-      "description": "Lamb meat - Arabic bread - French fries"
-    },
-    "kitchen-45": {
-      "name": "Fajita Wrap Chicken",
-      "description": "Chicken - Vegetables - Tortilla - Cheese - French fries"
-    },
-    "kitchen-46": {
-      "name": "Philadelphia Steak Sandwich",
-      "description": "Steak - Vegetables - Cheese - Baguette bread and French fries"
-    },
-    "kitchen-47": {
-      "name": "Crispy Chicken Sandwich",
-      "description": "Crispy chicken strips - Cheddar cheese - Vienna bread - French fries"
-    },
-    "kitchen-48": {
-      "name": "Classic Cheddar Burger",
-      "description": "Burger - Cheddar cheese - French fries"
-    },
-    "kitchen-49": {
-      "name": "Mushroom BBQ Burger",
-      "description": "Burger - Mozzarella cheese - BBQ - French fries"
-    },
-    "kitchen-50": {
-      "name": "Onion Soup",
-      "description": "Onion, toast, mozzarella cheese"
-    },
-    "kitchen-51": {
-      "name": "Lentil with Oats",
-      "description": "Lentils, oats, fried bread"
-    },
-    "kitchen-52": {
-      "name": "Mixed Cream Soup",
-      "description": "Fresh cream, chicken, mushrooms, sweet corn, toast, parmesan cheese"
-    },
-    "kitchen-53": {
-      "name": "Thai Beef Noodles",
-      "description": "Arugula - Baby corn - Bean sprouts - Noodles - Cherry tomatoes - Steak"
-    },
-    "kitchen-54": {
-      "name": "Palmito Salad",
-      "description": "Heart of palm - Lettuce - Mushrooms - Cherry tomatoes - Corn - Carrots - Toast"
-    },
-    "kitchen-55": {
-      "name": "Torch Salad",
-      "description": "Avocado - Corn - Red beans - Cherry tomatoes - Bell pepper - Quinoa - Chicken - Cheddar cheese - Nachos"
-    },
-    "kitchen-56": {
-      "name": "Chicken Caesar Salad",
-      "description": "Romaine lettuce - Croutons - Smoked chicken - Parmesan cheese - Caesar dressing"
-    },
-    "kitchen-57": {
-      "name": "Shrimp Caesar Salad",
-      "description": "Romaine lettuce - Croutons - Basil - Shrimp - Parmesan cheese - Caesar dressing"
-    },
-    "kitchen-58": {
-      "name": "Hearts of Lettuce with Roquefort",
-      "description": "Hearts of French lettuce - Roquefort cheese - Walnuts"
-    },
-    "kitchen-59": {
-      "name": "Potato Fortress",
-      "description": "Potatoes - Cheese cream"
-    },
-    "kitchen-60": {
-      "name": "French Fries",
-      "description": ""
-    },
-    "kitchen-61": {
-      "name": "Chicken Burritos",
-      "description": "Chicken - Vegetables - Cheese - Tortilla"
-    },
-    "kitchen-62": {
-      "name": "Buffalo Wings",
-      "description": "Fried chicken wings - Buffalo sauce"
-    },
-    "kitchen-63": {
-      "name": "Tempura Hot Dog",
-      "description": "Hot dog - Dijon mustard - Ketchup"
-    },
-    "kitchen-64": {
-      "name": "Dynamite Shrimp",
-      "description": "Fried shrimp - Potatoes - Dynamite sauce"
-    },
-    "kitchen-65": {
-      "name": "Garlic Bread",
-      "description": "Baguette - Herb butter - Mozzarella cheese"
-    },
-    "kitchen-66": {
-      "name": "Crispy BBQ",
-      "description": "Crispy chicken strips - BBQ sauce"
-    },
-    "kitchen-67": {
-      "name": "Mozzarella Sticks",
-      "description": "Fried mozzarella sticks - Pesto cream"
-    },
-    "kitchen-68": {
-      "name": "Nachos",
-      "description": "Nachos - Red beans - Corn - Jalapeño - Cheese"
-    },
-    "kitchen-69": {
-      "name": "Spaghetti Marinara Shrimp",
-      "description": "Tomato sauce - Parmesan cheese - Fried shrimp"
-    },
-    "kitchen-70": {
-      "name": "Chicken Fettuccine Alfonji",
-      "description": "Cream sauce - Mushrooms - Parmesan cheese - Fried chicken"
-    },
-    "kitchen-71": {
-      "name": "Torch Pasta",
-      "description": "Cheese cream sauce - Fried chicken"
-    },
-    "kitchen-72": {
-      "name": "Carbonara Omelet Croissant",
-      "description": "Croissant - Eggs - Fresh cream - Bacon - Parmesan cheese"
-    },
-    "kitchen-73": {
-      "name": "Calzone",
-      "description": "Turkey - Hot dog - Vegetables - Mozzarella cheese"
-    },
-    "kitchen-74": {
-      "name": "Za'atar Croissant with Vegetables",
-      "description": "Croissant - Green za'atar - Beets - Vegetables"
-    },
-    "kitchen-75": {
-      "name": "Fried Eggs with Bacon",
-      "description": "Eggs - White toast - Bacon"
-    },
-    "kitchen-76": {
-      "name": "Vegetable and Mozzarella Omelet",
-      "description": "Eggs - Vegetables - Mozzarella cheese - Lettuce - Cherry tomatoes"
-    },
-    "kitchen-77": {
-      "name": "Mixed Cheese Croissant with Vegetables",
-      "description": "Croissant - Mozzarella cheese - White cheese - Beets - Vegetables"
-    },
-    "kitchen-78": {
-      "name": "Fried Hot Dog",
-      "description": "Hot dog - Baguette - Dijon mustard - Ketchup"
-    },
-    "kitchen-79": {
-      "name": "Grilled Halloumi Cheese",
-      "description": ""
-    },
-    "kitchen-80": {
-      "name": "Mkdous (Stuffed Eggplant)",
-      "description": ""
-    },
-    "kitchen-81": {
-      "name": "Sourky Vegetables",
-      "description": ""
-    },
-    "kitchen-82": {
-      "name": "Zeinoun and Vegetables",
-      "description": ""
-    },
-    "kitchen-83": {
-      "name": "Hummus Fatteh",
-      "description": ""
-    },
-    "kitchen-84": {
-      "name": "Butter",
-      "description": ""
-    },
-    "kitchen-85": {
-      "name": "Foul Mudammas",
-      "description": ""
-    },
-    "kitchen-86": {
-      "name": "Halawa (Sweet)",
-      "description": ""
-    },
-    "kitchen-87": {
-      "name": "Jam",
-      "description": ""
-    },
-    "kitchen-88": {
-      "name": "Fried Eggs",
-      "description": ""
-    },
-    "kitchen-89": {
-      "name": "Mushroom Scramble",
-      "description": ""
-    },
+   "kitchen-1": {
+    "name": "منقوشة ميكس",
+    "description": "زعتر - محمرة مع موزريلا - جبنة شامية"
+  },
+  "kitchen-2": {
+    "name": "جينة بيضاء و خضار",
+    "description": ""
+  },
+  "kitchen-3": {
+    "name": "محمرة موزريلا",
+    "description": ""
+  },
+  "kitchen-4": {
+    "name": "لبنة ومكدوس",
+    "description": ""
+  },
+  "kitchen-5": {
+    "name": "زعتر و خضار",
+    "description": ""
+  },
+  "kitchen-6": {
+    "name": "لبنة وسماق لبنانية",
+    "description": ""
+  },
+  "kitchen-7": {
+    "name": "اسبانيش تشكن رول",
+    "description": "الدجاج - صلصة كريمة سبانخ - بطاطا مقلية"
+  },
+  "kitchen-8": {
+    "name": "تشكن كوردون",
+    "description": "دجاج - جبنة موزريلا - صلصة كريمة وحبش - بطاطا مقلية"
+  },
+  "kitchen-9": {
+    "name": "تشكن مارسالا",
+    "description": "دجاج - صلصة عنب - فطر - فوتوتشيني"
+  },
+  "kitchen-10": {
+    "name": "تشكن نابولي",
+    "description": "دجاج - صلصة كريمة بيستو - فوتوتشيني - خضار سوتيه"
+  },
+  "kitchen-11": {
+    "name": "دجاج مشوي ليمون واعشاب",
+    "description": "دجاج - صلصة كريمة الليمون - أرز - خضار سوتيه"
+  },
+  "kitchen-12": {
+    "name": "فخارة تورنادو",
+    "description": "دجاج - صلصة فطر وليمون"
+  },
+  "kitchen-13": {
+    "name": "فيوجن تشكن كاجو",
+    "description": "دجاج - صلصة كريمة كاجو - أرز"
+  },
+  "kitchen-14": {
+    "name": "كريمي تشكن موزريلا وبرميزان",
+    "description": "دجاج - فطر - جبنة - صلصة كريمة - بطاطا مقلية"
+  },
+  "kitchen-15": {
+    "name": "انتركوت ستيك",
+    "description": "ستيك - صلصة انتركوت - بطاطا مقلية"
+  },
+  "kitchen-16": {
+    "name": "بيف استراغنوف",
+    "description": "فيليه - خضار - صلصة مرق اللحم - أرز"
+  },
+  "kitchen-17": {
+    "name": "ستيك زعفران",
+    "description": "فيليه - صلصة كريمة زعفران - خضار سوتيه - بطاطا مقلية"
+  },
+  "kitchen-18": {
+    "name": "فيليه بيبر",
+    "description": "فيليه - صلصة بوافر - خضار سوتيه - بطاطا"
+  },
+  "kitchen-19": {
+    "name": "فيليه ركفورد",
+    "description": "فيليه - صلصة ريكفورد - خضار سوتيه - بطاطا"
+  },
+  "kitchen-20": {
+    "name": "فيليه ماسترد",
+    "description": "فيليه - صلصة خردل - خضار سوتيه - بطاطا"
+  },
+  "kitchen-21": {
+    "name": "فيليه مشروم",
+    "description": "فيليه - صلصة فطر - خضار سوتيه - بطاطا"
+  },
+  "kitchen-22": {
+    "name": "تشكن بوب كورن",
+    "description": "دجاج - حلقات بصل - بطاطا مقلية"
+  },
+  "kitchen-23": {
+    "name": "كريسبي صلصة شيدر",
+    "description": "فتايل دجاج كريسبي - صلصة كريمة تشدر - بطاطا مقلية"
+  },
+  "kitchen-24": {
+    "name": "فيش آند شيبس",
+    "description": "هامور - بطاطا شيبس"
+  },
+  "kitchen-25": {
+    "name": "هامور مشوي كريم ليمون واعشاب",
+    "description": "هامور - صلصة كريمة ليمون - أرز"
+  },
+  "kitchen-26": {
+    "name": "سكالوب حلومي",
+    "description": "دجاج - خضار - بطاطا مشوية"
+  },
+  "kitchen-27": {
+    "name": "دجاج الزبادي والاعشاب",
+    "description": "دجاج - صلصة لبن و أعشاب - أفوكادو - خضار"
+  },
+  "kitchen-28": {
+    "name": "ستيك الجرجير والبلسمك",
+    "description": "ستيك - جرجير - فطر - صلصة بلسميك"
+  },
+  "kitchen-29": {
+    "name": "شيش طاووق",
+    "description": "دجاج - أرز - خضار - صويا"
+  },
+  "kitchen-30": {
+    "name": "فيليه سمك الأعشاب و الكينوا",
+    "description": "هامور - كينوا - خضار - جبنة حلوم"
+  },
+  "kitchen-31": {
+    "name": "كريسبي",
+    "description": "فتايل دجاج كريسبي - خضار - بطاطا مشوية"
+  },
+  "kitchen-32": {
+    "name": "سكرامبل حبش و افوكادو",
+    "description": "بيض - توست أسمر - خضار مشوية - حبش - افوكادو - جبنة بيضاء"
+  },
+  "kitchen-33": {
+    "name": "أفوكادو تشيز توست",
+    "description": "توست أسمر - أفوكادو - جبنة بيضاء"
+  },
+  "kitchen-34": {
+    "name": "شعيرية مع دجاج",
+    "description": "شعيرية، دجاج مشوي، توست أسمر"
+  },
+  "kitchen-35": {
+    "name": "جرجير مع شوندر",
+    "description": "جرجير - شوندر - جزر - فطر - رمان"
+  },
+  "kitchen-36": {
+    "name": "كينوا تبولة",
+    "description": "بقدونس - بندورة - بصل - نعنع اخضر - كينوا - ليمون - زيت الزيتون"
+  },
+  "kitchen-37": {
+    "name": "بانزيلا إيطالية",
+    "description": "بندورة كرزية - الخيار - جرجير - خس لاروسو - فطر - بندورة مجففة - جبنة مشوية"
+  },
+  "kitchen-38": {
+    "name": "رايس تشكن بروسكيتا",
+    "description": "توست أرز - بندورة - حبق - دجاج"
+  },
+  "kitchen-39": {
+    "name": "بينه يوغريت",
+    "description": "صلصة اللبن - بيستو - لوز - كاجو"
+  },
+  "kitchen-40": {
+    "name": "ترياكي تشكن",
+    "description": "فتايل دجاج - صلصة ترياكي - أرز سوشي"
+  },
+  "kitchen-41": {
+    "name": "تونا",
+    "description": "تونا - خضار - خبز حبوب"
+  },
+  "kitchen-42": {
+    "name": "شرمب كونغ باو",
+    "description": "شرمب - بيبي كورن - فستق - زيت السمسم - أرز السوشي"
+  },
+  "kitchen-43": {
+    "name": "شاورما دجاج",
+    "description": "دجاج - خبز عربي - بطاطا مقلية"
+  },
+  "kitchen-44": {
+    "name": "شاورما لحمة",
+    "description": "لحم غنم - خبز عربي - بطاطا مقلية"
+  },
+  "kitchen-45": {
+    "name": "فاهيتا رابس تشكن",
+    "description": "دجاج - خضار - تورتيلا - جبنة - بطاطا مقلية"
+  },
+  "kitchen-46": {
+    "name": "فيلادلفيا ستيك ساندويش",
+    "description": "ستيك - خضار - جبنة - خبز باغيت بطاطا مقلية"
+  },
+  "kitchen-47": {
+    "name": "كريسبي تشكن ساندويش",
+    "description": "فتايل دجاج كريسبي - جبنة تشدر - خبز الفيينا - بطاطا مقلية"
+  },
+  "kitchen-48": {
+    "name": "كلاسيك تشيدر برغر",
+    "description": "برغر - جبنة تشدر - بطاطا مقلية"
+  },
+  "kitchen-49": {
+    "name": "مشروم برغر باربكيو",
+    "description": "برغر - جبنة موزريلا - باربيكيو - بطاطا مقلية"
+  },
+  "kitchen-50": {
+    "name": "شوربة بصل",
+    "description": "بصل، توست، جبنة الموزريلا"
+  },
+  "kitchen-51": {
+    "name": "عدس مع شوفان",
+    "description": "عدس، الشوفان، خبز المقلي"
+  },
+  "kitchen-52": {
+    "name": "كريمة ميكس",
+    "description": "كريمة فريش، دجاج، فطر، ذرة حلوة، توست، جبنة البارميزان"
+  },
+  "kitchen-53": {
+    "name": "تاي بيف نودلز",
+    "description": "جرجير - بيبي كورن - براعم الصويا - نوديلز - بندورة كرزية - ستيك"
+  },
+  "kitchen-54": {
+    "name": "سلطة بالميتو",
+    "description": "لب النخيل - خس - فطر - بندورة كرزية - ذرة - جزر - توست"
+  },
+  "kitchen-55": {
+    "name": "سلطة تورنادو",
+    "description": "أفوكادو - ذرة - فاصولياء حمراء - بندورة كرزية - فليفلة - كينوا - دجاج - جبنة تشدر - ناتشوز"
+  },
+  "kitchen-56": {
+    "name": "سيزر دجاج",
+    "description": "خس روماني - توست - دجاج مدخن - جبنة البارميزان - صلصة السيزار"
+  },
+  "kitchen-57": {
+    "name": "سيزر شرمب",
+    "description": "خس روماني - توست - الحبق - شرمب - جبنة البارميزان - صلصة السيزار"
+  },
+  "kitchen-58": {
+    "name": "قلوب خس ركفورد",
+    "description": "قلوب الخس الفرنجي - جبنة ريكفورد - جوز"
+  },
+  "kitchen-59": {
+    "name": "بطاطا فورتشيز",
+    "description": "بطاطا - كريمة الأجبان"
+  },
+  "kitchen-60": {
+    "name": "بطاطا مقلية",
+    "description": ""
+  },
+  "kitchen-61": {
+    "name": "بوريتوس تشكن",
+    "description": "دجاج - خضار - جبنة - تورتيلا"
+  },
+  "kitchen-62": {
+    "name": "بوفالو وينينغ",
+    "description": "جوانح دجاج مقلية - صلصة البوفالو"
+  },
+  "kitchen-63": {
+    "name": "تيمبورا هوت دوغ",
+    "description": "هوت دوغ - خردل ديجون - كتشب"
+  },
+  "kitchen-64": {
+    "name": "داينميت شرمب",
+    "description": "شرمب مقلي - بطاطا - صلصة داينمت"
+  },
+  "kitchen-65": {
+    "name": "غارليك بريد",
+    "description": "باغيت - زبدة أعشاب - جبنة موزريلا"
+  },
+  "kitchen-66": {
+    "name": "كريسبي باربكيو",
+    "description": "فتايل دجاج كريسبي - صلصة باربيكيو"
+  },
+  "kitchen-67": {
+    "name": "موزريلا ستيكز",
+    "description": "اصابع الموزريلا المقلية - كريمة البيستو"
+  },
+  "kitchen-68": {
+    "name": "ناتشوز",
+    "description": "ناتشوز - فاصوليا حمراء - ذرة - هالبينو - جبنة"
+  },
+  "kitchen-69": {
+    "name": "اسباغيتي مارينارا شرمب",
+    "description": "صلصة بندورة - جبنة بارميزان - شرمب مقلي"
+  },
+  "kitchen-70": {
+    "name": "تشكن فيتوتشيني الافونجي",
+    "description": "صلصة كريمة - فطر - جبنة بارميزان - دجاج مقلي"
+  },
+  "kitchen-71": {
+    "name": "تورنادو باستا",
+    "description": "صلصة كريمة الأجبان - دجاج مقلي"
+  },
+  "kitchen-72": {
+    "name": "كربونار أومليت كروسان",
+    "description": "كروسان - بيض - كريمة فريش - بيكن - جبنة بارميزان"
+  },
+  "kitchen-73": {
+    "name": "كالزويل",
+    "description": "حبش - هوت دوغ - خضار - جبنة موزريلا"
+  },
+  "kitchen-74": {
+    "name": "كروسان زعتر و خضار",
+    "description": "كروسان - زعتر أخضر - شوندر - خضار"
+  },
+  "kitchen-75": {
+    "name": "بيض عيون مع البيكن",
+    "description": "بيض - توست أبيض - بيكن"
+  },
+  "kitchen-76": {
+    "name": "اوميلت خضار و موزريلا",
+    "description": "بيض - خضار - جبنة موزريلا - خس - بندورة كرزية"
+  },
+  "kitchen-77": {
+    "name": "كروسان ميكس تشيز و خضار",
+    "description": "كروسان - جبنة موزريلا - جبنة بيضاء - شوندر - خضار"
+  },
+  "kitchen-78": {
+    "name": "هوت دوغ مقلي",
+    "description": "الهوت دوغ - باغيت - خردل ديجون - كتشب"
+  },
+  "kitchen-79": {
+    "name": "جنبة حلوم مشوية",
+    "description": ""
+  },
+  "kitchen-80": {
+    "name": "مكدوس",
+    "description": ""
+  },
+  "kitchen-81": {
+    "name": "سوركي خضرة",
+    "description": ""
+  },
+  "kitchen-82": {
+    "name": "زينون و خضار",
+    "description": ""
+  },
+  "kitchen-83": {
+    "name": "فتة حمص",
+    "description": ""
+  },
+  "kitchen-84": {
+    "name": "زبدة",
+    "description": ""
+  },
+  "kitchen-85": {
+    "name": "فول",
+    "description": ""
+  },
+  "kitchen-86": {
+    "name": "حلاوة",
+    "description": ""
+  },
+  "kitchen-87": {
+    "name": "مربى",
+    "description": ""
+  },
+  "kitchen-88": {
+    "name": "بيض مقلي",
+    "description": ""
+  },
+  "kitchen-89": {
+    "name": "مفركة فطر",
+    "description": ""
+  },
     "bar-1": {
       "name": "Hookah with Molasses",
       "description": "Hookah session"
