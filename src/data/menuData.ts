@@ -71,13 +71,7 @@ export const MENU_ITEMS: MenuItem[] = [
   { id: 'kitchen-25', category_id: 'seafood-meals', name: 'هامور مشوي كريم ليمون واعشاب', description: '', price: 1420, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
   
   // 6. وجبات دايت (IDs: 26-42)
-  { id: 'kitchen-26', category_id: 'diet-meals', name: 'سكالوب حلومي', description: 'دجاج - خضار - بطاطا مشوية', price: 1100, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-27', category_id: 'diet-meals', name: 'دجاج الزبادي والاعشاب', description: 'دجاج - صلصة لبن و أعشاب - أفوكادو - خضار', price: 1280, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-28', category_id: 'diet-meals', name: 'ستيك الجرجير والبلسمك', description: 'ستيك - جرجير - فطر - صلصة بلسميك', price: 1930, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-29', category_id: 'diet-meals', name: 'شيش طاووق', description: 'دجاج - أرز - خضار - صويا', price: 1190, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-30', category_id: 'diet-meals', name: 'فيليه سمك الأعشاب و الكينوا', description: 'هامور - كينوا - خضار - جبنة حلوم', price: 1360, image_url: null, display_order: 5, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-31', category_id: 'diet-meals', name: 'كريسبي', description: 'فتايل دجاج كريسبي - خضار - بطاطا مشوية', price: 1070, image_url: null, display_order: 6, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-32', category_id: 'diet-meals', name: 'سكرامبل حبش و افوكادو', description: 'بيض - توست أسمر - خضار مشوية - حبش - افوكادو - جبنة بيضاء', price: 570, image_url: null, display_order: 7, available: true, created_at: '', updated_at: '' },
+   { id: 'kitchen-32', category_id: 'diet-meals', name: 'سكرامبل حبش و افوكادو', description: 'بيض - توست أسمر - خضار مشوية - حبش - افوكادو - جبنة بيضاء', price: 570, image_url: null, display_order: 7, available: true, created_at: '', updated_at: '' },
   { id: 'kitchen-33', category_id: 'diet-meals', name: 'أفوكادو تشيز توست', description: 'توست أسمر - أفوكادو - جبنة بيضاء', price: 860, image_url: null, display_order: 8, available: true, created_at: '', updated_at: '' },
   { id: 'kitchen-34', category_id: 'diet-meals', name: 'شعيرية مع دجاج', description: 'شعيرية , دجاج مشوي , توست أسمر', price: 330, image_url: null, display_order: 9, available: true, created_at: '', updated_at: '' },
   { id: 'kitchen-35', category_id: 'diet-meals', name: 'جرجير مع شوندر', description: 'جرجير - شوندر - جزر - فطر - رمان', price: 770, image_url: null, display_order: 10, available: true, created_at: '', updated_at: '' },
@@ -85,10 +79,15 @@ export const MENU_ITEMS: MenuItem[] = [
   { id: 'kitchen-37', category_id: 'diet-meals', name: 'بانزيلا إيطالية', description: 'بندورة كرزية - الخيار - جرجير - خس لاروسو - فطر - بندورة مجففة - جبنة مشوية', price: 950, image_url: null, display_order: 12, available: true, created_at: '', updated_at: '' },
   { id: 'kitchen-38', category_id: 'diet-meals', name: 'رايس تشكن بروسكيتا', description: 'توست أرز - بندورة - حبق - دجاج', price: 780, image_url: null, display_order: 13, available: true, created_at: '', updated_at: '' },
   { id: 'kitchen-39', category_id: 'diet-meals', name: 'بينه يوغريت', description: 'صلصة اللبن - بيستو -لوز - كاجو', price: 860, image_url: null, display_order: 14, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-27', category_id: 'diet-meals', name: 'دجاج الزبادي والاعشاب', description: 'دجاج - صلصة لبن و أعشاب - أفوكادو - خضار', price: 1280, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-29', category_id: 'diet-meals', name: 'شيش طاووق', description: 'دجاج - أرز - خضار - صويا', price: 1190, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-28', category_id: 'diet-meals', name: 'ستيك الجرجير والبلسمك', description: 'ستيك - جرجير - فطر - صلصة بلسميك', price: 1930, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-31', category_id: 'diet-meals', name: 'كريسبي', description: 'فتايل دجاج كريسبي - خضار - بطاطا مشوية', price: 1070, image_url: null, display_order: 6, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-26', category_id: 'diet-meals', name: 'سكالوب حلومي', description: 'دجاج - خضار - بطاطا مشوية', price: 1100, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
   { id: 'kitchen-40', category_id: 'diet-meals', name: 'ترياكي تشكن', description: 'فتايل دجاج - صلصة ترياكي - أرز سوشي', price: 1350, image_url: null, display_order: 15, available: true, created_at: '', updated_at: '' },
   { id: 'kitchen-41', category_id: 'diet-meals', name: 'تونا', description: 'تونا - خضار- خبز حبوب', price: 990, image_url: null, display_order: 16, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-30', category_id: 'diet-meals', name: 'فيليه سمك الأعشاب و الكينوا', description: 'هامور - كينوا - خضار - جبنة حلوم', price: 1360, image_url: null, display_order: 5, available: true, created_at: '', updated_at: '' },
   { id: 'kitchen-42', category_id: 'diet-meals', name: 'شرمب كونغ باو', description: 'شرمب - بيبي كورن - فستق - زيت السمسم - أرز السوشي', price: 2250, image_url: null, display_order: 17, available: true, created_at: '', updated_at: '' },
-
   // 7. السندويش (IDs: 43-49)
   { id: 'kitchen-43', category_id: 'sandwiches', name: 'شاورما دجاج', description: '', price: 780, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
   { id: 'kitchen-44', category_id: 'sandwiches', name: 'شاورما لحمة', description: '', price: 1070, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
@@ -126,7 +125,7 @@ export const MENU_ITEMS: MenuItem[] = [
   // 11. الباستا (IDs: 69-71)
   { id: 'kitchen-69', category_id: 'pasta', name: 'اسباغيتي مارينارا شرمب', description: '', price: 1170, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
   { id: 'kitchen-70', category_id: 'pasta', name: 'تشكن فيتوتشيني الافونجي', description: '', price: 1060, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
-  { id: 'kitchen-71', category_id: 'pasta', name: 'تورنادو باستا', description: '', price: 1020, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
+  { id: 'kitchen-71', category_id: 'pasta', name: 'تورنادو باستا ', description: '', price: 1020, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
   
   // 12. فطور غربي (IDs: 72-78)
   { 
