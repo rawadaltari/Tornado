@@ -144,7 +144,7 @@
       "description": "Steak - Arugula - Mushrooms - Balsamic Sauce"
     },
     "kitchen-29": {
-      "name": "Chicken Shawarma",
+      "name": "Shish Tawook",
       "description": "Chicken - Rice - Vegetables - Soy"
     },
     "kitchen-30": {
@@ -164,7 +164,7 @@
       "description": "Brown Toast - Avocado - White Cheese"
     },
     "kitchen-34": {
-      "name": "Noodles with Chicken",
+      "name": "Noodles Soup with Chicken",
       "description": "Noodles, Grilled Chicken, Brown Toast"
     },
     "kitchen-35": {
@@ -192,7 +192,7 @@
       "description": "Chicken Strips - Teriyaki Sauce - Sushi Rice"
     },
     "kitchen-41": {
-      "name": "Tuna",
+      "name": "Tuna Sandwich",
       "description": "Tuna - Vegetables - Whole Grain Bread"
     },
     "kitchen-42": {
@@ -316,7 +316,7 @@
       "description": "Cheese Cream Sauce - Fried Chicken"
     },
     "kitchen-72": {
-      "name": "Carbonara Omelet Croissant",
+      "name": "Carbonara Omelette Croissant",
       "description": "Croissant - Eggs - Fresh Cream - Bacon - Parmesan Cheese"
     },
     "kitchen-73": {
@@ -328,11 +328,11 @@
       "description": "Croissant - Green Zaatar - Beetroot - Vegetables"
     },
     "kitchen-75": {
-      "name": "Sunny side up",
+      "name": "Sunny side up Eggs",
       "description": ""
     },
     "kitchen-76": {
-      "name": "Vegetable and Mozzarella Omelet",
+      "name": "Vegetable and Mozzarella Omelette",
       "description": "  Vegetables - Mozzarella Cheese - Lettuce - Cherry Tomatoes"
     },
     "kitchen-77": {
@@ -356,7 +356,7 @@
       "description": ""
     },
     "kitchen-82": {
-      "name": "Zeinoun and Vegetables",
+      "name": "olive and Vegetables",
       "description": ""
     },
     "kitchen-83": {
@@ -380,11 +380,11 @@
       "description": ""
     },
     "kitchen-88": {
-      "name": "Fried Eggs",
+      "name": "Omelettete Eggs",
       "description": ""
     },
     "kitchen-89": {
-      "name": "Mushroom Scramble",
+      "name": "Fried Mushroom with meat",
       "description": ""
     },
     "bar-1": {
