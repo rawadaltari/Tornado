@@ -388,551 +388,551 @@
     "description": ""
   },
     "bar-1": {
-      "name": "Hookah with Molasses",
-      "description": "Hookah session"
+      "name": "معسل بالدبس",
+      "description": "جلسة معسل"
     },
     "bar-2": {
-      "name": "Molasses Replacement",
-      "description": "Hookah refill"
+      "name": "استبدال الدبس",
+      "description": "تعبئة معسل"
     },
     "bar-3": {
-      "name": "Charcoal Plate",
-      "description": "Charcoal plate"
+      "name": "طبق الفحم",
+      "description": "طبق فحم"
     },
     "bar-4": {
-      "name": "Extra Espresso",
-      "description": "Extra espresso"
+      "name": "اكسترا اسبرسو",
+      "description": "اسبرسو إضافي"
     },
     "bar-5": {
-      "name": "Extra Ice Cream",
-      "description": "Extra ice cream"
+      "name": "اكسترا آيس كريم",
+      "description": "آيس كريم إضافي"
     },
     "bar-6": {
-      "name": "Extra Milk",
-      "description": "Extra milk"
+      "name": "اكسترا حليب",
+      "description": "حليب إضافي"
     },
     "bar-7": {
-      "name": "Extra Almond Milk",
-      "description": "Extra almond milk"
+      "name": "اكسترا حليب اللوز",
+      "description": "حليب اللوز الإضافي"
     },
     "bar-8": {
-      "name": "Extra Ginger",
-      "description": "Extra ginger"
+      "name": "اكسترا زنجبيل",
+      "description": "زنجبيل إضافي"
     },
     "bar-9": {
-      "name": "Extra Herbal Tea",
-      "description": "Extra herbal tea"
+      "name": "اكسترا شاي عشبي",
+      "description": "شاي عشبي إضافي"
     },
     "bar-10": {
-      "name": "Extra Syrup",
-      "description": "Extra syrup"
+      "name": "اكسترا شراب",
+      "description": "شراب إضافي"
     },
     "bar-11": {
-      "name": "Extra Tea",
-      "description": "Extra tea"
+      "name": "اكسترا شاي",
+      "description": "شاي إضافي"
     },
     "bar-12": {
-      "name": "Extra Chocolate",
-      "description": "Extra chocolate"
+      "name": "اكسترا شوكولاتة",
+      "description": "شوكولاتة إضافية"
     },
     "bar-13": {
-      "name": "Extra Blueberry Sauce",
-      "description": "Extra blueberry sauce"
+      "name": "اكسترا صلصة توت أزرق",
+      "description": "صلصة توت أزرق إضافية"
     },
     "bar-14": {
-      "name": "Extra Routin Sauce",
-      "description": "Extra routin sauce"
+      "name": "اكسترا صلصة روتين",
+      "description": "صلصة روتين إضافية"
     },
     "bar-15": {
-      "name": "Extra Honey",
-      "description": "Extra honey"
+      "name": "اكسترا عسل",
+      "description": "عسل إضافي"
     },
     "bar-16": {
-      "name": "Extra Grenadine",
-      "description": "Extra grenadine"
+      "name": "اكسترا جرينادين",
+      "description": "جرينادين إضافي"
     },
     "bar-17": {
-      "name": "Extra Cinnamon",
-      "description": "Extra cinnamon"
+      "name": "اكسترا قرفة",
+      "description": "قرفة إضافية"
     },
     "bar-18": {
-      "name": "Extra Nescafe",
-      "description": "Extra Nescafe"
+      "name": "اكسترا نسكافيه",
+      "description": "نسكافيه إضافي"
     },
     "bar-19": {
-      "name": "Extra Cardamom",
-      "description": "Extra cardamom"
+      "name": "اكسترا هيل",
+      "description": "هيل إضافي"
     },
     "bar-20": {
-      "name": "Lemon Slice",
-      "description": "Lemon slice"
+      "name": "شريحة ليمون",
+      "description": "شريحة ليمون"
     },
     "bar-21": {
-      "name": "Lemon Wedges",
-      "description": "Lemon wedges"
+      "name": "نصف ليمون",
+      "description": "نصف ليمون"
     },
     "bar-22": {
-      "name": "Asia Bowl Diet",
-      "description": "Berry mix - Nuts"
+      "name": "آسيا بول دايت",
+      "description": "مزيج توت - مكسرات"
     },
     "bar-23": {
-      "name": "Bamper Do",
-      "description": "Toast - Caramel - Cinnamon"
+      "name": "بامبر دو",
+      "description": "توست - كراميل - قرفة"
     },
     "bar-24": {
-      "name": "Browns Tornado",
+      "name": "براونز تورنادو",
       "description": ""
     },
     "bar-25": {
-      "name": "Oreo Cheesecake",
+      "name": "أوريو تشيزكيك",
       "description": ""
     },
     "bar-26": {
-      "name": "Blueberry Cheesecake",
+      "name": "توت أزرق تشيزكيك",
       "description": ""
     },
     "bar-27": {
-      "name": "Lotus Cheesecake",
+      "name": "لوتس تشيزكيك",
       "description": ""
     },
     "bar-28": {
-      "name": "Lemon Cheesecake",
+      "name": "ليمون تشيزكيك",
       "description": ""
     },
     "bar-29": {
-      "name": "Nutella Cheesecake",
+      "name": "نوتيلا تشيزكيك",
       "description": ""
     },
     "bar-30": {
-      "name": "Iced Spanish Latte",
-      "description": "Milk - Espresso - Nescafe"
+      "name": "آيس د إسبانيش لاتيه",
+      "description": "حليب - اسبرسو - نسكافيه"
     },
     "bar-31": {
-      "name": "Iced Caramel",
-      "description": "Milk - Espresso - Caramel"
+      "name": "آيس كراميل",
+      "description": "حليب - اسبرسو - كراميل"
     },
     "bar-32": {
-      "name": "Iced Latte",
-      "description": "Milk - Espresso"
+      "name": "آيس لاتيه",
+      "description": "حليب - اسبرسو"
     },
     "bar-33": {
-      "name": "Iced Matcha",
-      "description": "Milk - Matcha - Vanilla"
+      "name": "آيس ماتشا",
+      "description": "حليب - ماتشا - فانيليا"
     },
     "bar-34": {
-      "name": "Iced Mocha",
-      "description": "Milk - Espresso - Sauce"
+      "name": "آيس موكا",
+      "description": "حليب - اسبرسو - صلصة"
     },
     "bar-35": {
-      "name": "Tornado Frappe",
+      "name": "تورنادو فراب",
       "description": ""
     },
     "bar-36": {
-      "name": "Toffee Frappe",
-      "description": "Frappe - Toffee"
+      "name": "توفي فراب",
+      "description": "فراب - توفي"
     },
     "bar-37": {
-      "name": "Mocha Frappe",
+      "name": "موكا فراب",
       "description": ""
     },
     "bar-38": {
-      "name": "Classic Frappuccino",
+      "name": "كلاسيك فرابتشينو",
       "description": ""
     },
     "bar-39": {
-      "name": "Caramel Frappe",
+      "name": "كراميل فراب",
       "description": ""
     },
     "bar-40": {
-      "name": "Matcha Frappe",
+      "name": "ماتشا فراب",
       "description": ""
     },
     "bar-41": {
-      "name": "Polo Strawberry",
-      "description": "Strawberry - Lemon - Mint"
+      "name": "بولو فراولة",
+      "description": "فراولة - ليمون - نعنع"
     },
     "bar-42": {
-      "name": "Pina Colada",
-      "description": "Milk - Pineapple - Coconut"
+      "name": "بينا كولادا",
+      "description": "حليب - أناناس - جوز الهند"
     },
     "bar-43": {
-      "name": "Triple Berry",
-      "description": "Milk - Berry mix"
+      "name": "ترিبل بيري",
+      "description": "حليب - مزيج توت"
     },
     "bar-44": {
-      "name": "Tropical Fruit",
-      "description": "Tropical fruits"
+      "name": "تروبيكال فروت",
+      "description": "فواكه استوائية"
     },
     "bar-45": {
-      "name": "Fruit Cocktail",
+      "name": "فروت كوكتيل",
       "description": ""
     },
     "bar-46": {
-      "name": "Mango Passion Berry",
-      "description": "Berry mix - Mango - Syrup"
+      "name": "مانجو باشن بيري",
+      "description": "مزيج توت - مانجا - شراب"
     },
     "bar-47": {
-      "name": "Banana and Milk (Chocolate)",
+      "name": "موز وحليب (شوكولاتة)",
       "description": ""
     },
     "bar-48": {
-      "name": "Banana and Milk (Strawberry)",
+      "name": "موز وحليب (فراولة)",
       "description": ""
     },
     "bar-49": {
-      "name": "Banana and Milk (Classic)",
+      "name": "موز وحليب (كلاسيك)",
       "description": ""
     },
     "bar-50": {
-      "name": "Americano",
-      "description": "American coffee"
+      "name": "أمريكان",
+      "description": "قهوة أمريكانو"
     },
     "bar-51": {
-      "name": "Espresso Avoca",
-      "description": "Espresso - Vanilla ice cream"
+      "name": "اسبرسو أفوكا",
+      "description": "اسبرسو - آيس كريم فانيليا"
     },
     "bar-52": {
-      "name": "Espresso Bon Bon",
-      "description": "Espresso - Nescafe"
+      "name": "اسبرسو بون بون",
+      "description": "اسبرسو - نسكافيه"
     },
     "bar-53": {
-      "name": "Espresso Tornado",
+      "name": "اسبرسو تورنادو",
       "description": ""
     },
     "bar-54": {
-      "name": "Double Espresso",
+      "name": "اسبرسو دبل",
       "description": ""
     },
     "bar-55": {
-      "name": "Espresso Ristretto",
+      "name": "اسبرسو ريستريتو",
       "description": ""
     },
     "bar-56": {
-      "name": "Single Espresso",
+      "name": "اسبرسو سنغل",
       "description": ""
     },
     "bar-57": {
-      "name": "Espresso Con Panna",
-      "description": "Espresso - Cream"
+      "name": "اسبرسو كونبانا",
+      "description": "اسبرسو - كريمة"
     },
     "bar-58": {
-      "name": "Espresso Lungo",
+      "name": "اسبرسو لونغو",
       "description": ""
     },
     "bar-59": {
-      "name": "Espresso Macchiato",
-      "description": "Espresso - Milk"
+      "name": "اسبرسو مكياتو",
+      "description": "اسبرسو - حليب"
     },
     "bar-60": {
-      "name": "Americano",
+      "name": "امريكانو",
       "description": ""
     },
     "bar-61": {
-      "name": "Pistachio Latte",
-      "description": "Espresso - Milk - Pistachio"
+      "name": "بستاشيو لاتيه",
+      "description": "اسبرسو - حليب - بستاشيو"
     },
     "bar-62": {
-      "name": "Red Eye",
-      "description": "Americano - Espresso"
+      "name": "ريد آي",
+      "description": "أمريكانو - اسبرسو"
     },
     "bar-63": {
-      "name": "Ginger and Orange",
+      "name": "زنجبيل وبرتقال",
       "description": ""
     },
     "bar-64": {
-      "name": "Ginger and Lemon",
+      "name": "زنجبيل وليمون",
       "description": ""
     },
     "bar-65": {
-      "name": "Spanish Latte",
-      "description": "Espresso - Nescafe - Milk"
+      "name": "سبانيش لاتيه",
+      "description": "اسبرسو - نسكافيه - حليب"
     },
     "bar-66": {
-      "name": "Sahlab",
-      "description": "Sahlab - Nuts"
+      "name": "سحلب",
+      "description": "سحلب - مكسرات"
     },
     "bar-67": {
-      "name": "Tea",
+      "name": "شاي",
       "description": ""
     },
     "bar-68": {
-      "name": "Flat White",
-      "description": "Espresso - Milk"
+      "name": "فلات وايت",
+      "description": "اسبرسو - حليب"
     },
     "bar-69": {
-      "name": "Turkish Coffee",
+      "name": "قهوة تركي",
       "description": ""
     },
     "bar-70": {
-      "name": "Double Coffee",
+      "name": "قهوة دبل",
       "description": ""
     },
     "bar-71": {
-      "name": "Hazelnut Cappuccino",
-      "description": "Espresso - Syrup - Milk"
+      "name": "كابتشينو بندق",
+      "description": "اسبرسو - شراب - حليب"
     },
     "bar-72": {
-      "name": "Vanilla Cappuccino",
-      "description": "Espresso - Syrup - Milk"
+      "name": "كابتشينو فانيل",
+      "description": "اسبرسو - شراب - حليب"
     },
     "bar-73": {
-      "name": "Caramel Cappuccino",
-      "description": "Espresso - Syrup - Milk"
+      "name": "كابتشينو كراميل",
+      "description": "اسبرسو - شراب - حليب"
     },
     "bar-74": {
-      "name": "Classic Cappuccino",
-      "description": "Espresso - Milk"
+      "name": "كابتشينو كلاسيك",
+      "description": "اسبرسو - حليب"
     },
     "bar-75": {
-      "name": "Classic Coffee Latte",
-      "description": "Espresso - Milk"
+      "name": "كافي لاتيه كلاسيك",
+      "description": "اسبرسو - حليب"
     },
     "bar-76": {
-      "name": "Flavored Coffee Latte",
-      "description": "Espresso - Syrup - Milk"
+      "name": "كافي لاتيه نكهات",
+      "description": "اسبرسو - شراب - حليب"
     },
     "bar-77": {
-      "name": "Matcha Latte",
-      "description": "Matcha - Milk - Syrup"
+      "name": "ماتشا لاتيه",
+      "description": "ماتشا - حليب - شراب"
     },
     "bar-78": {
-      "name": "Moccaccino",
-      "description": "Chocolate sauce - Milk - Espresso"
+      "name": "موكاتشينو",
+      "description": "صلصة الشوكولاتة - حليب - اسبرسو"
     },
     "bar-79": {
-      "name": "Herbal Mix",
-      "description": "Cardamom - Ginger - Lemon - Rosemary"
+      "name": "ميكس هيربل",
+      "description": "هيل - زنجبيل - ليمون - إكليل الجبل"
     },
     "bar-80": {
-      "name": "Nescafe Gold",
+      "name": "نسكافيه غولد",
       "description": ""
     },
     "bar-81": {
-      "name": "Nescafe with Milk",
+      "name": "نسكافيه مع حليب",
       "description": ""
     },
     "bar-82": {
-      "name": "Boiled Mint",
+      "name": "نعنع مغلي",
       "description": ""
     },
     "bar-83": {
-      "name": "Hot Oreo",
-      "description": "Hot chocolate - Milk - Oreo"
+      "name": "هوت اوريو",
+      "description": "شوكولاتة ساخنة - حليب - اوريو"
     },
     "bar-84": {
-      "name": "Hot Chocolate",
-      "description": "Hot chocolate - Milk"
+      "name": "هوت تشوكليت",
+      "description": "شوكولاتة ساخنة - حليب"
     },
     "bar-85": {
-      "name": "Hot Chocolate Tornado",
-      "description": "Hot chocolate - Milk - Ice cream - Cream"
+      "name": "هوت تشوكليت تورنادو",
+      "description": "شوكولاتة ساخنة - حليب - آيس كريم - كريمة"
     },
     "bar-86": {
-      "name": "Pistachio Shake",
-      "description": "Milk - Ice cream - Pistachio"
+      "name": "بستاشيو شيك",
+      "description": "حليب - آيس كريم - بستاشيو"
     },
     "bar-87": {
-      "name": "Blueberry Shake",
-      "description": "Milk - Ice cream - Blueberry"
+      "name": "بلو بيري شيك",
+      "description": "حليب - آيس كريم - توت أزرق"
     },
     "bar-88": {
-      "name": "Cardamom Shake",
-      "description": "Milk - Ice cream - Cardamom"
+      "name": "كاردمون شيك",
+      "description": "حليب - آيس كريم - هيل"
     },
     "bar-89": {
-      "name": "Oreo Milkshake",
-      "description": "Milk - Ice cream - Oreo"
+      "name": "ميلك شيك اوريو",
+      "description": "حليب - آيس كريم - اوريو"
     },
     "bar-90": {
-      "name": "Tornado Milkshake",
+      "name": "ميلك شيك تورنادو",
       "description": ""
     },
     "bar-91": {
-      "name": "Chocolate Milkshake",
-      "description": "Milk - Ice cream - Cream"
+      "name": "ميلك شيك شوكولا",
+      "description": "حليب - آيس كريم - كريمة"
     },
     "bar-92": {
-      "name": "Vanilla Milkshake",
-      "description": "Milk - Ice cream - Cream"
+      "name": "ميلك شيك فانيل",
+      "description": "حليب - آيس كريم - كريمة"
     },
     "bar-93": {
-      "name": "Strawberry Milkshake",
-      "description": "Milk - Ice cream - Cream"
+      "name": "ميلك شيك فريز",
+      "description": "حليب - آيس كريم - كريمة"
     },
     "bar-94": {
-      "name": "Iced Tea Passion Fruit",
+      "name": "آيس تي باشن فروت",
       "description": ""
     },
     "bar-95": {
-      "name": "Iced Tea Peach",
+      "name": "آيس تي دراق",
       "description": ""
     },
     "bar-96": {
-      "name": "Iced Tea Lemon",
+      "name": "آيس تي ليمون",
       "description": ""
     },
     "bar-97": {
-      "name": "Fresh Iced Tea Ginger and Orange",
-      "description": "Ginger - Orange - Tea"
+      "name": "فريش آيس تي زنجبيل وبرتقال",
+      "description": "زنجبيل - برتقال - شاي"
     },
     "bar-98": {
-      "name": "Fresh Iced Tea Ginger and Lemon",
-      "description": "Ginger - Lemon - Tea"
+      "name": "فريش آيس تي زنجبيل وليمون",
+      "description": "زنجبيل - ليمون - شاي"
     },
     "bar-99": {
-      "name": "Avocado",
-      "description": "Avocado - Nuts - Banana"
+      "name": "افوكادو",
+      "description": "افوكادو - مكسرات - موز"
     },
     "bar-100": {
-      "name": "Sour Drink",
-      "description": "Orange - Lemon - Strawberry - Kiwi - Honey"
+      "name": "سور درينك",
+      "description": "برتقال - ليمون - فراولة - كيوي - عسل"
     },
     "bar-101": {
-      "name": "Banana, Milk, Oats, Dates, and Raisins",
+      "name": "موز وحليب وشوفان وتمر وزبيب",
       "description": ""
     },
     "bar-102": {
-      "name": "Banana, Milk, Nuts, and Honey",
+      "name": "موز وحليب ومكسرات وعسل",
       "description": ""
     },
     "bar-103": {
-      "name": "Healthy Drink",
-      "description": "Lemon - Ginger - Orange - Apple - Honey"
+      "name": "هيلثي درينك",
+      "description": "ليمون - زنجبيل - برتقال - تفاح - عسل"
     },
     "bar-104": {
-      "name": "Yogurt Drink Berry",
-      "description": "Powder - Milk - Berries - Honey"
+      "name": "يوغرت درينك توت",
+      "description": "مسحوق - حليب - توت - عسل"
     },
     "bar-105": {
-      "name": "Yogurt Drink Honey",
-      "description": "Powder - Milk - Honey"
+      "name": "يوغرت درينك عسل",
+      "description": "مسحوق - حليب - عسل"
     },
     "bar-106": {
-      "name": "Yogurt Drink Strawberry",
-      "description": "Powder - Milk - Strawberry - Honey"
+      "name": "يوغرت درينك فريز",
+      "description": "مسحوق - حليب - فراولة - عسل"
     },
     "bar-107": {
-      "name": "Yogurt Drink Mango",
-      "description": "Powder - Milk - Mango - Honey"
+      "name": "يوغرت درينك منغا",
+      "description": "مسحوق - حليب - مانجا - عسل"
     },
     "bar-108": {
-      "name": "Orange Ginger Merry",
+      "name": "اورنج جنجر ميري",
       "description": ""
     },
     "bar-109": {
-      "name": "Red and Blue",
-      "description": "Lemon grenadine - Mint - Pineapple - Blue"
+      "name": "ريد آند بلو",
+      "description": "جرينادين - نعنع - أناناس - أزرق"
     },
     "bar-110": {
-      "name": "Mojito Passion Fruit",
+      "name": "موهيتو باشن فروت",
       "description": ""
     },
     "bar-111": {
-      "name": "Mojito Peach",
+      "name": "موهيتو دراق",
       "description": ""
     },
     "bar-112": {
-      "name": "Classic Mojito",
+      "name": "موهيتو كلاسيك",
       "description": ""
     },
     "bar-113": {
-      "name": "Mojito Mixed Berry",
+      "name": "موهيتو ميكس بيري",
       "description": ""
     },
     "bar-114": {
-      "name": "Yellow Mix",
-      "description": "Peach - Passion - Pineapple"
+      "name": "يلو ميكس",
+      "description": "دراق - باشن - أناناس"
     },
     "bar-115": {
-      "name": "Watermelon Juice",
+      "name": "عصير بطيخ",
       "description": ""
     },
     "bar-116": {
-      "name": "Peach Juice",
+      "name": "عصير دراق",
       "description": ""
     },
     "bar-117": {
-      "name": "Pomegranate Juice",
+      "name": "عصير رمان",
       "description": ""
     },
     "bar-118": {
-      "name": "Cantaloupe Juice",
+      "name": "عصير شمام",
       "description": ""
     },
     "bar-119": {
-      "name": "Grapefruit Juice",
+      "name": "عصير غريفون",
       "description": ""
     },
     "bar-120": {
-      "name": "Orange and Carrot",
+      "name": "برتقال وجزر",
       "description": ""
     },
     "bar-121": {
-      "name": "Orange and Grapefruit",
+      "name": "برتقال وغريفون",
       "description": ""
     },
     "bar-122": {
-      "name": "Orange and Lemon",
+      "name": "برتقال وليمون",
       "description": ""
     },
     "bar-123": {
-      "name": "Carrot and Apple",
+      "name": "جزر وتفاح",
       "description": ""
     },
     "bar-124": {
-      "name": "Pineapple Juice",
+      "name": "عصير اناناس",
       "description": ""
     },
     "bar-125": {
-      "name": "Orange Juice",
+      "name": "عصير برتقال",
       "description": ""
     },
     "bar-126": {
-      "name": "Polo Juice",
+      "name": "بولو",
       "description": ""
     },
     "bar-127": {
-      "name": "Apple Juice",
+      "name": "عصير تفاح",
       "description": ""
     },
     "bar-128": {
-      "name": "Berry Juice",
+      "name": "عصير توت",
       "description": ""
     },
     "bar-129": {
-      "name": "Carrot Juice",
+      "name": "عصير جزر",
       "description": ""
     },
     "bar-130": {
-      "name": "Strawberry Juice",
+      "name": "عصير فراولة",
       "description": ""
     },
     "bar-131": {
-      "name": "Kiwi Juice",
+      "name": "عصير كيوي",
       "description": ""
     },
     "bar-132": {
-      "name": "Kiwi and Pineapple Juice",
+      "name": "كيوي وأناناس",
       "description": ""
     },
     "bar-133": {
-      "name": "Lemon Juice",
+      "name": "عصير ليمون",
       "description": ""
     },
     "bar-134": {
-      "name": "Mango Juice",
+      "name": "عصير مانجا",
       "description": ""
     },
     "bar-135": {
-      "name": "Strawberry and Berry",
+      "name": "فراولة وتوت",
       "description": ""
     },
     "bar-136": {
-      "name": "Strawberry and Kiwi",
+      "name": "فراولة وكيوي",
       "description": ""
     },
     "bar-137": {
-      "name": "Strawberry and Lemon",
+      "name": "فراولة وليمون",
       "description": ""
     }
   },

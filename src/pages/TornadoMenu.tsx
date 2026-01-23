@@ -35,7 +35,9 @@ export default function TornadoMenu() {
     if (translated && typeof translated === 'object' && 'name' in translated) {
       return (translated as { name: string }).name;
     }
-    return t(`menuItems.${itemId}`, itemId);
+    // البحث عن الاسم من البيانات الأصلية إذا لم تكن هناك ترجمة
+    const item = MENU_ITEMS.find(i => i.id === itemId);
+    return item?.name || itemId;
   };
 
   // دالة للحصول على وصف المنتج
