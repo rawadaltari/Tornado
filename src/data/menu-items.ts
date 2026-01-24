@@ -259,7 +259,7 @@ const barItems: MenuItem[] = [
   { id: 'bar-82', category_id: 'hot-drinks', name: 'هوت تشوكليت تورنادو', description: '', price: 75000, image_url: null, display_order: 36, available: true, created_at: '', updated_at: '' },
 
   // الميلك شيك
-  { id: 'bar-83', category_id: 'milkshakes', name: 'بستاشيو شيك', description: '', price: 75000, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
+  { id: 'bar-83', category_id: 'milkshakes', name: 'بستاشيو شيك', description: '/public/assets/Hotdrinks/milkshake vanilla.JPG', price: 75000, image_url: null, display_order: 1, available: true, created_at: '', updated_at: '' },
   { id: 'bar-84', category_id: 'milkshakes', name: 'بلو بيري شيك', description: '', price: 75000, image_url: null, display_order: 2, available: true, created_at: '', updated_at: '' },
   { id: 'bar-85', category_id: 'milkshakes', name: 'كاردمون شيك', description: '', price: 70000, image_url: null, display_order: 3, available: true, created_at: '', updated_at: '' },
   { id: 'bar-86', category_id: 'milkshakes', name: 'ميلك شيك اوريو', description: '', price: 70000, image_url: null, display_order: 4, available: true, created_at: '', updated_at: '' },
