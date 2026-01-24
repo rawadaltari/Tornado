@@ -308,7 +308,7 @@ export const MENU_ITEMS: MenuItem[] = [
   { id: 'bar-85', category_id: 'hot-drinks', name: 'هوت تشوكليت تورنادو', description: '', price: 750, image_url: '/assets/Hotdrinks/tornado%20frape.JPG', display_order: 36, available: true, created_at: '', updated_at: '' },
   
   // 7. الميلك شيك
-  { id: 'bar-86', category_id: 'milkshakes', name: 'بستاشيو شيك', description: '', price: 750, image_url: '/public/assets/Hotdrinks/pistacho shake.JPG', display_order: 1, available: true, created_at: '', updated_at: '' },
+  { id: 'bar-86', category_id: 'milkshakes', name: 'بستاشيو شيك', description: '', price: 750, image_url: '/public/assets/Hotdrinks/pistacho%20shake.JPG', display_order: 1, available: true, created_at: '', updated_at: '' },
   { id: 'bar-87', category_id: 'milkshakes', name: 'بلو بيري شيك', description: '', price: 750, image_url: '/assets/Hotdrinks/blueberry%20shake.JPG', display_order: 2, available: true, created_at: '', updated_at: '' },
   { id: 'bar-88', category_id: 'milkshakes', name: 'كاردمون شيك', description: '', price: 700, image_url: '/assets/Hotdrinks/Cardamom%20shake.JPG', display_order: 3, available: true, created_at: '', updated_at: '' },
   { id: 'bar-89', category_id: 'milkshakes', name: 'ميلك شيك اوريو', description: '', price: 700, image_url: '/assets/Hotdrinks/Oreo%20milkshake.JPG', display_order: 4, available: true, created_at: '', updated_at: '' },
